@@ -7,10 +7,12 @@ title = "Diverse logics and grammar encode notochord enhancers"
 authors = "Benjamin P Song*, Michelle F Ragsac*, Krissie Tellez, Granton A Jindal, Jessica L Grudzien, Sophia H Le, Emma K Farley"
 disclaimer = "*These authors contributed equally to this work"
 
+requestor_name = "Benjamin Paul Song"
+
 # Generate PDF to gather signatures 
 pdf = FPDF(orientation='P', unit='in', format='Letter')
 
-header_text = "Michelle Franc Ragsac has my permission to include the "
+header_text = f"{requestor_name} has my permission to include the "
 header_text += "following paper which was submitted for publication of which "
 header_text += "I was a co-author, in her doctoral dissertation."
 
