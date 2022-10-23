@@ -14,7 +14,7 @@
 \usepackage[breaklinks=true,pdfborder={0 0 0}]{hyperref}
 \usepackage{graphicx}
 \AtBeginDocument{%
-	\settowidth\cvlabelwidth{\cvlabelfont 0000--0000}%
+	\settowidth\cvlabelwidth{\cvlabelfont 0000--0000}
 }
 
 % OGS recommends increasing the margins slightly.
@@ -43,17 +43,17 @@
 
 % Begin with front matter and so forth
 \frontmatter
-\maketitle
-\makecopyright
-\makesignature
+\maketitle{}
+\makecopyright{}
+\makesignature{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Dedication
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{dedication}
-	\setsinglespacing
-	\raggedright 
-	\parindent0pt\parskip\baselineskip
+	\setsinglespacing{}
+	\raggedright{}
+	\parindent0pt\parskip\baselineskip{}
 	\begin{center}
 		TBA
 	\end{center}
@@ -65,12 +65,13 @@
 \begin{epigraph}
 	\vskip0pt plus.5fil
 	\vfil\vfil
-	\setsinglespacing
-	{ \flushright
+	\setsinglespacing{}
+	{ \flushright{
 		It is not birth, marriage, or death, \\
 		but gastrulation which is the most \\
 		important time in your life.
-		\vskip\baselineskip
+		}
+		\vskip\baselineskip{}
 		\textit{Louis Wolpert}\par
 	}
 	\vfil\vfil\vfil
@@ -114,9 +115,9 @@
 	\item[2016--2017] Research Assistant, Christopher Benner Laboratory\\
 		University of California, San Diego
 	\item[2017] Teaching Assistant\\Scripps Institute of Oceanography 
-	\item[2017] Research Associate, Applications and Technology Services--Assays by Agena\\
+	\item[2017] Research Associate, Applications and Technology Services-Assays by Agena\\
 		Agena Bioscience
-	\item[2018] Research Associate, Research and Development--Molecular Tools\\
+	\item[2018] Research Associate, Research and Development-Molecular Tools\\
 		Agena Bioscience 
 	\item[2018--2022] Ph.D. in Bioinformatics and Systems Biology,\\
 		University of California, San Diego
@@ -134,7 +135,7 @@
 \end{cv}
 
 %%%%% PUBLICATIONS %%%%%
-\publications
+\publications{}
 % \noindent``Distributions of Control Points in a System for Analysis of Stress
 % Distribution'' IRE Transactions of the I.R.E\@. Professional Group on
 % Automatic Control, vol. AC-7, pp 272--289, September 2005
@@ -154,7 +155,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Main Text of the Dissertation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\mainmatter
+\mainmatter{}
 
 \include{1_introduction}
 \include{2_diverse-logics-encode-notochord-enhancers}
@@ -173,8 +174,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % End of the Dissertation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\backmatter
-\bibliographystyle{unsrt} % Or whatever style you want like plainnat
+\backmatter{}
+\bibliographystyle{unsrt} 
 \bibliography{bibliography}
 
 \end{document}
