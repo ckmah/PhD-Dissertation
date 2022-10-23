@@ -1,0 +1,180 @@
+\documentclass[11pt]{formatting-template}
+
+% mathptmx is a Times Roman look-alike (don't use the times package)
+% It isn't clear if Times is required. The OGS manual lists several
+% "standard fonts" but never says they need to be used.
+% \usepackage{mathptmx}
+
+\usepackage[NoDate]{currvita}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{ragged2e}
+\usepackage{microtype}
+\usepackage[breaklinks=true,pdfborder={0 0 0}]{hyperref}
+\usepackage{graphicx}
+\AtBeginDocument{%
+	\settowidth\cvlabelwidth{\cvlabelfont 0000--0000}%
+}
+
+% OGS recommends increasing the margins slightly.
+\increasemargins{.1in}
+
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
+\overfullrule5pt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thesis Title & Author Information
+\title{Decoding the genomic regulatory syntax driving notochord development}
+\author{Michelle Franc Ragsac }
+\degree{Bioinformatics and Systems Biology}{Doctor of Philosophy}
+
+% Thesis Committee Members
+\chair{Professor Emma K. Farley}
+\cochair{Professor Theresa Gaasterland} 
+\committee{Professor Christopher Benner} % alphabetical order required
+\committee{Professor Vineet Bafna}
+\committee{Professor Xin Sun}
+\degreeyear{2022}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% Begin with front matter and so forth
+\frontmatter
+\maketitle
+\makecopyright
+\makesignature
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dedication
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{dedication}
+	\setsinglespacing
+	\raggedright 
+	\parindent0pt\parskip\baselineskip
+	\begin{center}
+		TBA
+	\end{center}
+\end{dedication}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Epigraph
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{epigraph}
+	\vskip0pt plus.5fil
+	\vfil\vfil
+	\setsinglespacing
+	{ \flushright
+		It is not birth, marriage, or death, \\
+		but gastrulation which is the most \\
+		important time in your life.
+		\vskip\baselineskip
+		\textit{Louis Wolpert}\par
+	}
+	\vfil\vfil\vfil
+\end{epigraph}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table of Contents, Figures, Tables, Etc.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Next comes the table of contents, list of figures, list of tables,
+% etc. If you have code listings, you can use \listoflistings (or
+% \lstlistoflistings) to have it be produced here as well. Same with
+% \listofalgorithms.
+\tableofcontents
+\listoffigures
+\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Acknowledgements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{acknowledgements}
+	TBA
+\end{acknowledgements}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Vita
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{vita}
+\noindent
+\begin{cv}{}
+\begin{cvlist}{}
+	\item[2013--2017] B.S. in Bioengineering: Bioinformatics\\
+		University of California, San Diego
+	\item[2014] Research Technician, Albert La Spada Laboratory\\	
+		University of California, San Diego
+	\item[2014--2016] Research Assistant, Laboratory of Computational Genomics\\
+		Scripps Institute of Oceanography 
+	\item[2015--2016] Writing Studio Mentor, Sixth College Writing Studio\\
+		University of California, San Diego
+	\item[2016] FrontierLab Summer Research Intern, Laboratory of Protein Informatics\\
+		Osaka University, Japan  
+	\item[2016--2017] Research Assistant, Christopher Benner Laboratory\\
+		University of California, San Diego
+	\item[2017] Teaching Assistant\\Scripps Institute of Oceanography 
+	\item[2017] Research Associate, Applications and Technology Services--Assays by Agena\\
+		Agena Bioscience
+	\item[2018] Research Associate, Research and Development--Molecular Tools\\
+		Agena Bioscience 
+	\item[2018--2022] Ph.D. in Bioinformatics and Systems Biology,\\
+		University of California, San Diego
+	\item[2018] Teaching Assistant\\
+		Scripps Institute of Oceanography
+	\item[2020--2021] Teaching Assistant, School of Medicine\\
+		University of California, San Diego 
+	\item[2020--2021] Bootcamp Instructor, Bioinformatics and Systems Biology Doctoral Program\\
+		University of California, San Diego 
+	\item[2020--2021] Finance Committee Chair, Graduate and Professional Student Association\\
+		University of California, San Diego
+	\item[2021--2022] Vice President of Financial Affairs, Graduate and Professional Student Association\\
+		University of California, San Diego
+\end{cvlist}
+\end{cv}
+
+%%%%% PUBLICATIONS %%%%%
+\publications
+% \noindent``Distributions of Control Points in a System for Analysis of Stress
+% Distribution'' IRE Transactions of the I.R.E\@. Professional Group on
+% Automatic Control, vol. AC-7, pp 272--289, September 2005
+
+%%%%% FIELDS OF STUDY %%%%% 
+% This section was omitted within this thesis as it was optional.
+
+\end{vita}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dissertation Abstract 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{dissertationabstract}
+	TBA
+\end{dissertationabstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main Text of the Dissertation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+
+\include{1_introduction}
+\include{2_diverse-logics-encode-notochord-enhancers}
+\include{3_enhancers-similar-grammar-wide-range-activity}
+\include{4_gene-regulatory-networks}
+\include{5_bioinformatics-education}
+
+% Command that provides dummy text to showcase formatting:
+% \Blinddocument
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Appendix of the Dissertation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of the Dissertation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+\bibliographystyle{unsrt} % Or whatever style you want like plainnat
+\bibliography{bibliography}
+
+\end{document}

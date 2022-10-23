@@ -10,7 +10,8 @@
 \LoadClass{book}
 \RequirePackage{fixltx2e}
 \RequirePackage{calc}
-\RequirePackage[layout=letterpaper,
+\RequirePackage[
+	layout=letterpaper,
 	headsep=.5truein,
 	footskip=.5truein,
 	nomarginpar]{geometry}
@@ -87,7 +88,6 @@
 	\@themargin\oddsidemargin
 }
 
-
 \assignpagestyle\chapter{plain}
 
 \renewcommand\maketitle{%
@@ -98,10 +98,11 @@
 		\centering
 		UNIVERSITY OF CALIFORNIA SAN DIEGO\par
 		\vskip\titleskip
-		\@title
+		{\bf \@title}
 		\vskip\satisfactionskip
-		A dissertation submitted in partial satisfaction of
-		the\par requirements for the degree \@shortdegree
+		A dissertation submitted in partial satisfaction\par 
+		of the requirements for the degree\par 
+		\@shortdegree
 		\par
 		\vskip\inskip
 		in\par
@@ -146,11 +147,10 @@
 	\newpage
 }
 
-% XXX: The example document has wider margins here, why??
 \newcommand*\makesignature{%
 	\ifx\@chair\@empty
 		\ifx\@cochair\@empty
-			\ClassError{ucsddissertation}{You must specify
+			\ClassError{formatting-template}{You must specify
 				a \protect\chair}{Use \protect\chair}%
 		\fi
 	\fi
@@ -160,9 +160,9 @@
 	\Vspace\z@skip
 	\vfill
 	\noindent
-	\hskip.5in
-	\parbox{\linewidth-1in}{%
-		\noindent The Dissertation of \@author\ is approved, and it is
+	\hskip1.5in
+	\parbox{\linewidth-3in}{%
+		\noindent The Dissertation of \@author is approved, and it is
 		acceptable in quality and form for publication on microfilm
 		and electronically.\par
 		\vspace{33em}
@@ -187,14 +187,14 @@
 % adds afterward.
 \newcommand*\setsinglespacing{\setstretch{\setspace@singlespace}}
 
-\def\@degree{\ClassError{ucsddissertation}{You must specify a
+\def\@degree{\ClassError{formatting-template}{You must specify a
 \protect\degree}{Use \protect\degree}}
-\def\@shortdegree{\ClassError{ucsddissertation}{You must specify a
+\def\@shortdegree{\ClassError{formatting-template}{You must specify a
 \protect\degree}{Use \protect\degree}}
 \let\@chair\@empty
 \let\@cochair\@empty
 \let\@committee\@empty
-\def\@degreeyear{\ClassError{ucsddissertation}{You must specify a
+\def\@degreeyear{\ClassError{formatting-template}{You must specify a
 \protect\degreeyear}{Use \protect\degreeyear}}
 \setlength\parindent{.5in}
 
@@ -274,7 +274,7 @@
 		\global\setbox\ucsd@captionbox\color@vbox\vbox{%
 			\ucsd@saved@caption##1[##2]{##3}%
 		}\color@endbox
-		\def\caption{\ClassError{ucsddissertation}{%
+		\def\caption{\ClassError{formatting-template}{%
 			Only one \noexpand\caption\space per
 			facingcaption}{}}%
 	}%
@@ -355,7 +355,7 @@
 }
 
 % Fix the broken \@chapter that unconditionally adds space
-\def\ucsd@patchfailed{\ClassError{ucsddissertation}{Failed to patch a
+\def\ucsd@patchfailed{\ClassError{formatting-template}{Failed to patch a
 command!}{Uh oh}}
 \patchcmd{\@chapter}{%
 	\addtocontents{lof}{\protect\addvspace{10\p@}}%
