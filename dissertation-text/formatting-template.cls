@@ -265,6 +265,15 @@
 	\newpage
 }
 
+\newenvironment{dissertationepilogue}{%
+	\newpage
+	\csuse{phantomsection}%
+	\addcontentsline{toc}{chapter}{Epilogue}%
+	\chapter*{Epilogue}%
+}{%
+	\newpage
+}
+
 % Facing caption pages
 \newbox\ucsd@captionbox
 \newenvironment{facingcaption}[1]{%
