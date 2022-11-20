@@ -24,6 +24,10 @@
 \RequirePackage{etoolbox}
 \RequirePackage{ragged2e}
 
+% Used for table formatting 
+\RequirePackage{lscape}
+\RequirePackage{longtable}
+
 % This command can be used in the preamble to increase the margins
 % uniformly. If uniformity is not desired, then \geometry can be used
 % explicitly.
@@ -241,7 +245,7 @@
 		\Vspace{1.5in}%
 		\strut ABSTRACT OF THE DISSERTATION\par
 		\vskip\titleskip
-		\@title\par
+		\textbf{\@title}\par
 		\vskip\byskip
 		by\par
 		\vskip\authorskip
