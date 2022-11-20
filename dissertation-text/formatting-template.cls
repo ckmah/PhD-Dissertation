@@ -24,7 +24,8 @@
 \RequirePackage{etoolbox}
 \RequirePackage{ragged2e}
 
-% Used for table formatting 
+% Used for figure and table formatting 
+\RequirePackage{float}
 \RequirePackage{lscape}
 \RequirePackage{longtable}
 
