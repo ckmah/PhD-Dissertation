@@ -2,8 +2,9 @@
 /.ipynb_checkpoints
 /.vscode
 
-/coauthor-permission-letters/diverse-logics/
+/coauthor-permission-letters/.DS_Store
 
+/administrative-files/*
 /dissertation-text/*
 !/dissertation-text/*.tex
 !/dissertation-text/*.cls
