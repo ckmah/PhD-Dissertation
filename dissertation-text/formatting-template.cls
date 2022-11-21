@@ -167,7 +167,7 @@
 	\noindent
 	\hskip1.5in
 	\parbox{\linewidth-3in}{%
-		\noindent The Dissertation of \@author is approved, and it is
+		\noindent The Dissertation of \@author\ is approved, and it is
 		acceptable in quality and form for publication on microfilm
 		and electronically.\par
 		\vspace{33em}
