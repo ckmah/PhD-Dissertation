@@ -11,3 +11,76 @@ Gastrulation is an early, formative developmental process that involves the reor
 Within vertebrates, the notochord is a transient anatomical structure only present in the early embryo. Notochord-derived abnormalities can be traced to stress on the pathways responsible for notochord cell maintenance in adulthood or to remnants of the notochord that fail to regress during early development. The remnants of the notochord constitute the nucleus pulposus, the innermost compartment of the intervertebral discs [CITE]. Within the nucleus pulposus, notochord cells secrete extracellular matrix (ECM) molecules to form a proteoglycan-rich and gelatinous matrix that acts as the cushioning infrastructure responsible for the shock-absorption properties of the intervertebral discs [CITE]. These properties are necessary for general movement and flexibility of the backbone in vertebrates [CITE]. Degeneration of notochordal cells in the nuclei pulposi causes the onset of intervertebral disc degeneration and consequent back pain, the leading cause of disability in the adult population worldwide [CITE]. Thus, many groups have focused on dissecting the factors important for notogenesis to identify potential therapeutic agents to limit or reduce the symptom-causing pathologies of intervertebral disc degeneration by targeting pathways inducing structural disruption or inflammation [CITE]. Another notochordal defect includes chordomas, a rare type of bone sarcoma that represents about 1\% to 4\% of primary bone tumors [CITE]. While the mechanistic knowledge of chordoma formation is limited, there is evidence that they are derived from embryonic remnants of the notochord [CITE]. For example, long before it was proposed as a diagnostic marker for chordomas, brachyury was identified as a regulator for notogenesis and as a general biomarker for the notochord and notochord-derived tumors [CITE]. Brachyury is a highly conserved T-box transcription factor that helps promote cell movement and adhesion, which are fundamental for morphogenesis and tumorigenesis [CITE]. With the fundamental role of brachyury in notochord development, further research into the factors involved in notogenesis is important to better understand whether aberrant activation of notochord GRNs contributes to chordomagenesis.
 
 The marine tunicate \textit{Ciona} is a member of the subphylum Urochordata and is thought to represent the simplest and most primitive chordate body plans [CITE]. While \textit{Ciona} has been extensively studied, there is still much we can delineate from comparing \textit{Ciona} cell fate determination pathways to other chordate species, especially concerning notochord specification [CITE]. In a previous study, Cao et al. developed a single-cell transcriptional atlas spanning the onset of gastrulation through the swimming tadpole stage in \textit{Ciona}. Within this study, they were able to construct virtual cell-lineage maps and gene networks for 41 neural subtypes that comprise the larval nervous system [CITE]. Other single-cell studies performed in tunicates have also proved successful in studying lineage specification in other cell types [CITE]. As various groups have demonstrated the feasibility of performing atlas-scale single-cell methods in \textit{Ciona} and other tunicates, we used scRNA-seq to generate a comprehensive single-cell gene expression atlas spanning the onset of gastrulation to study the GRNs dictating notochord fate specification. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{\textit{Ciona intestinalis} single-cell expression atlas spanning gastrulation}
+
+TBA
+
+\subsection{Validating single-cell RNA-sequencing results with \textit{in situ} hybridization studies}
+
+TBA
+
+\subsection{Identification of the vertebrate homolog \textit{Arx} in a gastrulating \textit{Ciona} embryo}
+
+TBA
+
+\subsection{Specification of \textit{Ciona} notochordal fates from mesenchymal tissue}
+
+TBA
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TBA
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Materials and Methods}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{\textit{Ciona} handling, collection, dissociation, and imaging of embryos}
+Adult \textit{Ciona intestinalis type A}, also known as \textit{Ciona robusta}, were obtained from M-Rep and were maintained under constant illumination in seawater (obtained from Reliant Aquariums) at $18^\circ$C. \textit{Ciona} are hermaphroditic; therefore, there is only one possible sex for individuals. The age or developmental stage of the embryos studied is indicated in the main text.
+
+\textit{Ciona} embryos were dechorionated as described in Christiaen \textit{et al.} (2009) \cite{christiaen2009}. Embryos were allowed to develop to either 4.5 hours post fertilization (hpf), 5.5 hpf, or 6.5 hpf in seawater. Embryos were dissociated by resuspension 1:3 Accumax:Artificial Seawater (ASW)-Mg-Ca, followed by light vortexing and gentle pipetting with Pasteur pipettes. Dissociated cells were washed twice with ASW + 0.1\% BSA and resuspended in 1 mL in ASW + 0.1\% BSA. Cells were strained through a 50 $\mu$m cell strainer, and cell concentration was counted on a hemacytometer. Fluorescent \textit{in situ} hybridization (FISH) assays were performed as previously described \cite{beh2007,ikuta2007,christiaen2009a,stolfi2014}. Embryos were counter-stained with DAPI (LifeTechnologies/Thermo Fisher Scientific, Waltham, MA). Images were taken using Leica Microsystems (Wetzlar, Germany) SP8 microscope.
+
+\subsection{Single-cell RNA sequencing library construction, sequencing, data preprocessing, and preliminary clustering}
+scRNA-seq was performed immediately after cell dissociation with the 10X Chromium 3' v2 kit (10X Genomics, Pleasanton, CA) following the manufacturer’s protocol. The target number of captured cells was 10,000 for each replicate of each time point. Sequencing libraries were prepared per the manufacturer’s protocol. Libraries were sequenced on the Illumina HiSeq 4000. Sequence alignment, filtering, barcode counting, and unique molecular identifier (UMI) counting were then performed using the cellranger (version 7.0.0) \verb|count| pipeline\footnote{\href{https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/using/count}{https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/using/count}} (10x Genomics, Pleasanton, CA) on each sample separately. The cellranger \verb|count| pipeline produced an RNA count matrix for each sample included in the study—three biological replicates across each of the 4.5 hpf, 5.5 hpf, and 6.5 hpf time points of \textit{Ciona} development. Using the Python software package scanpy (version 1.9.1) \cite{wolf2018}, all samples were combined into a single AnnData object for preprocessing. Across the three biological replicates of the 4.5 hpf, 5.5 hpf, and 6.5 hpf \textit{Ciona} embryos, there were 147,235 cells, 121,401 cells, and 157,661 cells, respectively. Before filtering, the RNA count matrix contained 426,297 cells x 18,788 genes. 
+
+During preprocessing, doublet detection was performed using scanpy's external integration of the scrublet (version 0.2.3) tool to remove 10 cells from our RNA count matrix \cite{wolock2019}. Next, we performed the following steps in sequence to quality filter the data: we filtered out 56,539 cells that had less than 500 counts per cell, 41 cells that had more than 10,000 counts per cell, and finally, 13,216 cells that had less than 500 genes expressed. We then filtered out 2,307 genes detected in less than 20 cells. The resultant RNA count matrix contained 366,671 cells x 16,481 genes. Using the scanpy \verb|normalize_total()| method, we normalized all cells to represent 10,000 reads per cell, then logarithmized the data matrix using the scanpy \verb|log2p()| method. We then identified highly-variable genes using the dispersion-based method defined in scanpy, setting the minimum mean dispersion (\verb|min_mean parameter|) to 0.0125, the maximum mean dispersion (\verb|max_mean parameter|) to 3, and the minimum dispersion (\verb|min_disp parameter|) to 0.5. This approach identified 1,561 highly-variable genes to filter the data for downstream analysis. After regressing out the total number of counts per cell with the scanpy \verb|regress_out()| method, the data was scaled to unit variance with the scanpy \verb|scale()| method. We denoised the data using PCA as a dimensionality reduction method, then performed batch correction with scanpy's external integration of the harmonypy (version 0.0.5) tool \cite{slowikowski2022}. 
+
+As a first step towards cell type clustering, we computed the neighborhood graph of cells using the PCA representation of the RNA count matrix using the scanpy \verb|neighbors()| method with a local neighborhood size of 10 and with 10 principal components. We embedded the graph into two-dimensional space using the uniform manifold approximation and projection (UMAP) dimension reduction technique for general non-linear dimensional reduction with the scanpy \verb|umap()| method. We performed UMAP as it is suggested by scanpy to be more faithful to the global connectivity of the manifold and, thus, better at preserving cellular trajectories. Finally, we directly clustered the neighborhood graph of cells in our data using the Leiden graph-clustering method implemented in the scanpy \verb|leiden()| method. In total, 36 clusters were found within our data. 
+
+\subsection{Cell type cluster identification in the \textit{Ciona intestinalis} gastrulation atlas}
+After performing Leiden clustering on our single-cell \textit{Ciona} gastrulation atlas, we annotated the clusters to correspond to tissue types present in the embryo. To expedite the clustering process, we leveraged the Aniseed API to access timepoint-specific gene location information extracted from user-submitted and published \textit{in situ} images \cite{dardaillon2020}. Currently, two gene models in circulation for \textit{Ciona} are hosted on the Ghost database: the KH model\footnote{\url{http://ghost.zool.kyoto-u.ac.jp/cgi-bin/gb2/gbrowse/kh/}} and the updated KY model\footnote{\url{http://ghost.zool.kyoto-u.ac.jp/default_ht.html}} \cite{dehal2002,satou2019,imai2004}. While Aniseed uses the KH models in their API, we generated our RNA count matrix with the KY gene model. As a first step, we translated the 1,561 KY gene identifiers in our RNA count matrix to KH identifiers using a chromosomal distance-based Python script (\url{https://github.com/katarzynampiekarz/ciona_gene_model_converter}). This allowed us to integrate Aniseed's gene location information at our time points of interest with our RNA count matrix to expedite the identification of cell-type clusters during gastrulation. 
+
+For the clustering applied to UMAP coordinates of the whole dataset, we refined annotation results by first comparing the expression pattern of top marker genes and known \textit{Ciona} regulatory genes between the Leiden clusters. Clusters with similar expression patterns to key regulatory genes and known markers were considered the same cell type. We also compared our annotation results with the \textit{in situ} records accessed via that Aniseed API or by viewing the \textit{in situ} images recorded in the Ghost and Aniseed databases. We carefully checked the gene expression pattern for putative newly discovered cell types in clusters with poorly annotated marker genes to ensure no ambiguous expression of known markers. We identified 15 clusters representing various lineages of the following cell types: endoderm, epidermis, germ cells, heart, mesenchyme, muscle, nervous system, and notochord.
+
+\subsection{Reconstruction of notogenesis cell lineage trajectories}
+
+[TBA]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Acknowledgements}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+This work would not have been possible without the help of the following individuals that were fundamental to the execution of this project: Benjamin P. Song, Hannah Finnegan, and Emma K. Farley. I would also like to thank the Farley Lab for helpful discussions during the analysis of the data included in this work, especially with regards to cell cluster identification and imaging of cell type markers. I would also like to thank the UCSD IGM Genomics Center for their assistance with sequencing. Finally, I would also like to thank Alberto Stolfi and Katarzyna Piekarz from the Georgia Institute of Technology for their generous support in providing a script to translate between the \textit{Ciona intestinalis} KH gene identifiers and the updated KY gene identifiers. Their assistance was fundamental to the identification of cell-type clusters in this work.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Footnotes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Author contributions}
+E.K.F., B.P.S., M.F.R, designed experiments. B.P.S. and H.F. conducted experiments. M.F.R. conducted bioinformatic analyses. M.F.R. wrote the chapter. E.K.F., M.F.R., and B.P.S. were involved in editing the chapter. 
+
+\subsection{Funding}
+M.F.R. was supported by NIH T32 GM008666. B.P.S. was supported by NIH T32 GM133351. E.K.F., M.F.R., B.P.S., and H.F. were supported by NIH DP2HG010013.
+
+\subsection{Data availability}
+Further information and requests for resources and reagents should be directed to and will be fulfilled by the lead contact, Emma K. Farley (efarley@ucsd.edu), upon request. All FASTQ files and annotated scanpy \verb|AnnData| objects will be deposited to GEO when a publication is made available. All original code for this chapter has been deposited to GitHub (\url{https://github.com/mragsac/Ciona-Single-Cell-Gastrulation-Study}) and will be made publicly available. Any additional information or data required to recapitulate the study reported in this chapter is available upon request.
+
+\subsection{Declaration of interests}
+The authors declare no competing interests.
