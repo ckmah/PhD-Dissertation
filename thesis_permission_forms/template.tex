@@ -1,0 +1,31 @@
+%% Based on the file template.tex in https://github.com/mwookawa/ucsd-thesis
+%% No license found there.
+%%
+\documentclass{article}
+\pagestyle{empty}
+\begin{document}
+
+\today
+
+\bigskip
+\bigskip
+\bigskip
+
+Clarence Mah has my permission to include the following papers, of
+which I was a coauthor, in his doctoral dissertation.
+
+\begin{itemize}
+    {% for paper in papers %}
+        \item {{ paper }}
+    {% endfor %}
+\end{itemize}
+
+\bigskip
+\bigskip
+\bigskip
+
+\noindent
+\rule{5cm}{1pt} \\
+{{ first_name }} {{ last_name }}
+
+\end{document}
