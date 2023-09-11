@@ -1,11 +1,20 @@
-/.DS_Store
-/.ipynb_checkpoints
-/.vscode
+.DS_Store
+.ipynb_checkpoints
+.vscode
 
-/coauthor-permission-letters/.DS_Store
+*.aux
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.tof
+*.synctex.gz
 
-/administrative-files/*
-/dissertation-text/*
+thesis_permission_forms/forms/*.pdf
+!thesis_permission_forms/forms/gepa-signature-instructions.pdf
 !/dissertation-text/*.tex
 !/dissertation-text/*.cls
 !/dissertation-text/*.bib
