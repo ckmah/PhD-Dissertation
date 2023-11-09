@@ -1,0 +1,686 @@
+\begin{thebibliography}{118}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Buxbaum et~al.(2015)Buxbaum, Haimovich, and Singer]{buxbaumRightPlaceRight2015}
+Adina~R Buxbaum, Gal Haimovich, and Robert~H Singer.
+\newblock In the right place at the right time: Visualizing and understanding {{mRNA}} localization.
+\newblock \emph{Nature Reviews Molecular Cell Biology}, 16\penalty0 (2):\penalty0 95--109, February 2015.
+\newblock ISSN 1471-0072, 1471-0080.
+\newblock \doi{10.1038/nrm3918}.
+
+\bibitem[Fernandopulle et~al.(2021)Fernandopulle, {Lippincott-Schwartz}, and Ward]{fernandopulleRNATransportLocal2021}
+Michael~S. Fernandopulle, Jennifer {Lippincott-Schwartz}, and Michael~E. Ward.
+\newblock {{RNA}} transport and local translation in neurodevelopmental and neurodegenerative disease.
+\newblock \emph{Nature Neuroscience}, 24\penalty0 (5):\penalty0 622--632, May 2021.
+\newblock ISSN 1097-6256, 1546-1726.
+\newblock \doi{10.1038/s41593-020-00785-2}.
+
+\bibitem[Raj et~al.(2008)Raj, {van den Bogaard}, Rifkin, {van Oudenaarden}, and Tyagi]{rajImagingIndividualMRNA2008}
+Arjun Raj, Patrick {van den Bogaard}, Scott~A. Rifkin, Alexander {van Oudenaarden}, and Sanjay Tyagi.
+\newblock Imaging individual {{mRNA}} molecules using multiple singly labeled probes.
+\newblock \emph{Nature Methods}, 5\penalty0 (10):\penalty0 877--879, October 2008.
+\newblock ISSN 1548-7105.
+\newblock \doi{10.1038/nmeth.1253}.
+
+\bibitem[Chen et~al.(2015{\natexlab{a}})Chen, Boettiger, Moffitt, Wang, and Zhuang]{chenSpatiallyResolvedHighly2015}
+Kok~Hao Chen, Alistair~N. Boettiger, Jeffrey~R. Moffitt, Siyuan Wang, and Xiaowei Zhuang.
+\newblock Spatially resolved, highly multiplexed {{RNA}} profiling in single cells.
+\newblock \emph{Science}, 348\penalty0 (6233):\penalty0 aaa6090, April 2015{\natexlab{a}}.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.aaa6090}.
+
+\bibitem[Marx(2021)]{marxMethodYearSpatially2021}
+Vivien Marx.
+\newblock Method of the {{Year}}: Spatially resolved transcriptomics.
+\newblock \emph{Nature Methods}, 18\penalty0 (1):\penalty0 9--14, January 2021.
+\newblock ISSN 1548-7105.
+\newblock \doi{10.1038/s41592-020-01033-y}.
+
+\bibitem[Wilkinson et~al.(2016)Wilkinson, Dumontier, Aalbersberg, Appleton, Axton, Baak, Blomberg, Boiten, {da Silva Santos}, Bourne, Bouwman, Brookes, Clark, Crosas, Dillo, Dumon, Edmunds, Evelo, Finkers, {Gonzalez-Beltran}, Gray, Groth, Goble, Grethe, Heringa, {'t Hoen}, Hooft, Kuhn, Kok, Kok, Lusher, Martone, Mons, Packer, Persson, {Rocca-Serra}, Roos, {van Schaik}, Sansone, Schultes, Sengstag, Slater, Strawn, Swertz, Thompson, {van der Lei}, {van Mulligen}, Velterop, Waagmeester, Wittenburg, Wolstencroft, Zhao, and Mons]{wilkinsonFAIRGuidingPrinciples2016}
+Mark~D. Wilkinson, Michel Dumontier, IJsbrand~Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan-Willem Boiten, Luiz~Bonino {da Silva Santos}, Philip~E. Bourne, Jildau Bouwman, Anthony~J. Brookes, Tim Clark, Merc{\`e} Crosas, Ingrid Dillo, Olivier Dumon, Scott Edmunds, Chris~T. Evelo, Richard Finkers, Alejandra {Gonzalez-Beltran}, Alasdair J.~G. Gray, Paul Groth, Carole Goble, Jeffrey~S. Grethe, Jaap Heringa, Peter A.~C. {'t Hoen}, Rob Hooft, Tobias Kuhn, Ruben Kok, Joost Kok, Scott~J. Lusher, Maryann~E. Martone, Albert Mons, Abel~L. Packer, Bengt Persson, Philippe {Rocca-Serra}, Marco Roos, Rene {van Schaik}, Susanna-Assunta Sansone, Erik Schultes, Thierry Sengstag, Ted Slater, George Strawn, Morris~A. Swertz, Mark Thompson, Johan {van der Lei}, Erik {van Mulligen}, Jan Velterop, Andra Waagmeester, Peter Wittenburg, Katherine Wolstencroft, Jun Zhao, and Barend Mons.
+\newblock The {{FAIR Guiding Principles}} for scientific data management and stewardship.
+\newblock \emph{Scientific Data}, 3\penalty0 (1):\penalty0 160018, March 2016.
+\newblock ISSN 2052-4463.
+\newblock \doi{10.1038/sdata.2016.18}.
+
+\bibitem[Wang et~al.(2021)Wang, Eddison, Fleishman, Weigert, Xu, Wang, Rokicki, Goina, Henry, Lemire, Schmidt, Yang, Svoboda, Myers, Saalfeld, Korff, Sternson, and Tillberg]{wangEASIFISHThickTissue2021}
+Yuhan Wang, Mark Eddison, Greg Fleishman, Martin Weigert, Shengjin Xu, Tim Wang, Konrad Rokicki, Cristian Goina, Fredrick~E. Henry, Andrew~L. Lemire, Uwe Schmidt, Hui Yang, Karel Svoboda, Eugene~W. Myers, Stephan Saalfeld, Wyatt Korff, Scott~M. Sternson, and Paul~W. Tillberg.
+\newblock {{EASI-FISH}} for thick tissue defines lateral hypothalamus spatio-molecular organization.
+\newblock \emph{Cell}, 184\penalty0 (26):\penalty0 6361--6377.e24, December 2021.
+\newblock ISSN 00928674.
+\newblock \doi{10.1016/j.cell.2021.11.024}.
+
+\bibitem[Schapiro et~al.(2022)Schapiro, Sokolov, Yapp, Chen, Muhlich, Hess, Creason, Nirmal, Baker, Nariya, Lin, Maliga, Jacobson, Hodgman, Ruokonen, Farhi, Abbondanza, McKinley, Persson, Betts, Sivagnanam, Regev, Goecks, Coffey, Coussens, Santagata, and Sorger]{schapiroMCMICROScalableModular2022}
+Denis Schapiro, Artem Sokolov, Clarence Yapp, Yu-An Chen, Jeremy~L. Muhlich, Joshua Hess, Allison~L. Creason, Ajit~J. Nirmal, Gregory~J. Baker, Maulik~K. Nariya, Jia-Ren Lin, Zoltan Maliga, Connor~A. Jacobson, Matthew~W. Hodgman, Juha Ruokonen, Samouil~L. Farhi, Domenic Abbondanza, Eliot~T. McKinley, Daniel Persson, Courtney Betts, Shamilene Sivagnanam, Aviv Regev, Jeremy Goecks, Robert~J. Coffey, Lisa~M. Coussens, Sandro Santagata, and Peter~K. Sorger.
+\newblock {{MCMICRO}}: A scalable, modular image-processing pipeline for multiplexed tissue imaging.
+\newblock \emph{Nature Methods}, 19\penalty0 (3):\penalty0 311--315, March 2022.
+\newblock ISSN 1548-7091, 1548-7105.
+\newblock \doi{10.1038/s41592-021-01308-y}.
+
+\bibitem[Zhu()]{ZhuangLabMERlinMERlin}
+{{ZhuangLab}}/{{MERlin}}: {{MERlin}} v0.1.6.
+\newblock \doi{10.5281/zenodo.3758540}.
+
+\bibitem[{Others}()]{othersStarfishOpenSource}
+{Others}.
+\newblock Starfish: {{Open Source Image Based Transcriptomics}} and {{Proteomics Tools}}.
+
+\bibitem[Cisar et~al.(2023)Cisar, Keener, Ruffalo, and Paten]{cisarUnifiedPipelineFISH2023}
+Cecilia Cisar, Nicholas Keener, Mathew Ruffalo, and Benedict Paten.
+\newblock A unified pipeline for {{FISH}} spatial transcriptomics.
+\newblock \emph{Cell Genomics}, 3\penalty0 (9):\penalty0 100384, September 2023.
+\newblock ISSN 2666-979X.
+\newblock \doi{10.1016/j.xgen.2023.100384}.
+
+\bibitem[Virshup et~al.(2021)Virshup, Rybakov, Theis, Angerer, and Wolf]{virshupAnndataAnnotatedData2021}
+Isaac Virshup, Sergei Rybakov, Fabian~J. Theis, Philipp Angerer, and F.~Alexander Wolf.
+\newblock Anndata: {{Annotated}} data.
+\newblock Preprint, {Bioinformatics}, December 2021.
+
+\bibitem[Marconato et~al.(2023)Marconato, Palla, Yamauchi, Virshup, Heidari, Treis, Toth, Shrestha, V{\"o}hringer, Huber, Gerstung, Moore, Theis, and Stegle]{marconatoSpatialDataOpenUniversal2023}
+Luca Marconato, Giovanni Palla, Kevin~A. Yamauchi, Isaac Virshup, Elyas Heidari, Tim Treis, Marcella Toth, Rahul~B. Shrestha, Harald V{\"o}hringer, Wolfgang Huber, Moritz Gerstung, Josh Moore, Fabian~J. Theis, and Oliver Stegle.
+\newblock {{SpatialData}}: An open and universal data framework for spatial omics, May 2023.
+
+\bibitem[Righelli et~al.(2022)Righelli, Weber, Crowell, Pardo, {Collado-Torres}, Ghazanfar, Lun, Hicks, and Risso]{righelliSpatialExperimentInfrastructureSpatiallyresolved2022}
+Dario Righelli, Lukas~M Weber, Helena~L Crowell, Brenda Pardo, Leonardo {Collado-Torres}, Shila Ghazanfar, Aaron T~L Lun, Stephanie~C Hicks, and Davide Risso.
+\newblock {{SpatialExperiment}}: Infrastructure for spatially-resolved~transcriptomics data in {{R}} using {{Bioconductor}}.
+\newblock \emph{Bioinformatics}, 38\penalty0 (11):\penalty0 3128--3131, May 2022.
+\newblock ISSN 1367-4803.
+\newblock \doi{10.1093/bioinformatics/btac299}.
+
+\bibitem[Dries et~al.(2021)Dries, Zhu, Dong, Eng, Li, Liu, Fu, Zhao, Sarkar, Bao, George, Pierson, Cai, and Yuan]{driesGiottoToolboxIntegrative2021}
+Ruben Dries, Qian Zhu, Rui Dong, Chee-Huat~Linus Eng, Huipeng Li, Kan Liu, Yuntian Fu, Tianxiao Zhao, Arpan Sarkar, Feng Bao, Rani~E. George, Nico Pierson, Long Cai, and Guo-Cheng Yuan.
+\newblock Giotto: A toolbox for integrative analysis and visualization of spatial expression data.
+\newblock \emph{Genome Biology}, 22\penalty0 (1):\penalty0 78, December 2021.
+\newblock ISSN 1474-760X.
+\newblock \doi{10.1186/s13059-021-02286-2}.
+
+\bibitem[Palla et~al.(2021)Palla, Spitzer, Klein, Fischer, Schaar, Kuemmerle, Rybakov, Ibarra, Holmberg, Virshup, Lotfollahi, Richter, and Theis]{pallaSquidpyScalableFramework2021}
+Giovanni Palla, Hannah Spitzer, Michal Klein, David Fischer, Anna~Christina Schaar, Louis~Benedikt Kuemmerle, Sergei Rybakov, Ignacio~L. Ibarra, Olle Holmberg, Isaac Virshup, Mohammad Lotfollahi, Sabrina Richter, and Fabian~J. Theis.
+\newblock Squidpy: A scalable framework for spatial single cell analysis.
+\newblock Preprint, {Bioinformatics}, February 2021.
+
+\bibitem[STO(2023)]{STOmicsStereopy2023}
+{{STOmics}}/{{Stereopy}}.
+\newblock STOmics, October 2023.
+
+\bibitem[Pham et~al.(2020)Pham, Tan, Xu, Grice, Lam, Raghubar, Vukovic, Ruitenberg, and Nguyen]{phamStLearnIntegratingSpatial2020}
+Duy Pham, Xiao Tan, Jun Xu, Laura~F. Grice, Pui~Yeng Lam, Arti Raghubar, Jana Vukovic, Marc~J. Ruitenberg, and Quan Nguyen.
+\newblock {{stLearn}}: Integrating spatial location, tissue morphology and gene expression to find cell types, cell-cell interactions and spatial trajectories within undissociated tissues.
+\newblock Preprint, {Bioinformatics}, May 2020.
+
+\bibitem[Moses et~al.(2023)Moses, Einarsson, Jackson, Luebbert, Booeshaghi, Antonsson, Bray, Melsted, and Pachter]{mosesVoyagerExploratorySinglecell2023}
+Lambda Moses, P{\'e}tur~Helgi Einarsson, Kayla Jackson, Laura Luebbert, A.~Sina Booeshaghi, Sindri Antonsson, Nicolas Bray, P{\'a}ll Melsted, and Lior Pachter.
+\newblock Voyager: Exploratory single-cell genomics data analysis with geospatial statistics, August 2023.
+
+\bibitem[Kumar et~al.(2023)Kumar, Schrader, Boroojeny, Asadian, Lee, Song, Zhao, Han, and Sinha]{kumarIntracellularSpatialTranscriptomic2023}
+Anurendra Kumar, Alex Schrader, Ali Boroojeny, Marisa Asadian, Juyeon Lee, You Song, Sihai Zhao, Hee-Sun Han, and Saurabh Sinha.
+\newblock Intracellular {{Spatial Transcriptomic Analysis Toolkit}} ({{InSTAnT}}).
+\newblock Preprint, {In Review}, January 2023.
+
+\bibitem[Fang et~al.()Fang, Ford, Hu, Zhang, Mantalaris, and Coskun]{fangSubcellularSpatiallyResolved}
+Zhou Fang, Adam~J Ford, Thomas Hu, Nicholas Zhang, Athanasios Mantalaris, and Ahmet~F Coskun.
+\newblock Subcellular spatially resolved gene neighborhood networks in single cells.
+
+\bibitem[Walter et~al.()Walter, Stegle, and Velten]{walterFISHFactorProbabilisticFactor}
+Florin Walter, Oliver Stegle, and Britta Velten.
+\newblock {{FISHFactor}}: {{A Probabilistic Factor Model}} for {{Spatial Transcriptomics Data}} with {{Subcellular Resolution}}.
+
+\bibitem[Imbert et~al.(2022)Imbert, Ouyang, Safieddine, Coleno, Zimmer, Bertrand, Walter, and Mueller]{imbertFISHquantV2Scalable2022}
+Arthur Imbert, Wei Ouyang, Adham Safieddine, Emeline Coleno, Christophe Zimmer, Edouard Bertrand, Thomas Walter, and Florian Mueller.
+\newblock {{FISH-quant}} v2: A scalable and modular tool for {{smFISH}} image analysis.
+\newblock \emph{RNA}, 28\penalty0 (6):\penalty0 786--795, June 2022.
+\newblock ISSN 1355-8382, 1469-9001.
+\newblock \doi{10.1261/rna.079073.121}.
+
+\bibitem[Mah et~al.(2022)Mah, Ahmed, Lopez, Lam, Monell, Kern, Han, Prasad, Cesnik, Lundberg, Zhu, Carter, and Yeo]{mahBentoToolkitSubcellular2022}
+Clarence~K. Mah, Noorsher Ahmed, Nicole Lopez, Dylan Lam, Alexander Monell, Colin Kern, Yuanyuan Han, Gino Prasad, Anthony~J. Cesnik, Emma Lundberg, Quan Zhu, Hannah Carter, and Gene~W. Yeo.
+\newblock Bento: {{A}} toolkit for subcellular analysis of spatial transcriptomics data.
+\newblock Preprint, {Bioinformatics}, June 2022.
+
+\bibitem[Thul et~al.(2017)Thul, {\AA}kesson, Wiking, Mahdessian, Geladaki, Ait~Blal, Alm, Asplund, Bj{\"o}rk, Breckels, B{\"a}ckstr{\"o}m, Danielsson, Fagerberg, Fall, Gatto, Gnann, Hober, Hjelmare, Johansson, Lee, Lindskog, Mulder, Mulvey, Nilsson, Oksvold, Rockberg, Schutten, Schwenk, Sivertsson, Sj{\"o}stedt, Skogs, Stadler, Sullivan, Tegel, Winsnes, Zhang, Zwahlen, Mardinoglu, Pont{\'e}n, {von Feilitzen}, Lilley, Uhl{\'e}n, and Lundberg]{thulSubcellularMapHuman2017}
+Peter~J Thul, Lovisa {\AA}kesson, Mikaela Wiking, Diana Mahdessian, Aikaterini Geladaki, Hammou Ait~Blal, Tove Alm, Anna Asplund, Lars Bj{\"o}rk, Lisa~M Breckels, Anna B{\"a}ckstr{\"o}m, Frida Danielsson, Linn Fagerberg, Jenny Fall, Laurent Gatto, Christian Gnann, Sophia Hober, Martin Hjelmare, Fredric Johansson, Sunjae Lee, Cecilia Lindskog, Jan Mulder, Claire~M Mulvey, Peter Nilsson, Per Oksvold, Johan Rockberg, Rutger Schutten, Jochen~M Schwenk, {\AA}sa Sivertsson, Evelina Sj{\"o}stedt, Marie Skogs, Charlotte Stadler, Devin~P Sullivan, Hanna Tegel, Casper Winsnes, Cheng Zhang, Martin Zwahlen, Adil Mardinoglu, Fredrik Pont{\'e}n, Kalle {von Feilitzen}, Kathryn~S Lilley, Mathias Uhl{\'e}n, and Emma Lundberg.
+\newblock A subcellular map of the human proteome.
+\newblock \emph{Science}, 356\penalty0 (6340):\penalty0 eaal3321, May 2017.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.aal3321}.
+
+\bibitem[Laurila and Vihinen(2009)]{laurilaPredictionDiseaserelatedMutations2009}
+Kirsti Laurila and Mauno Vihinen.
+\newblock Prediction of disease-related mutations affecting protein localization.
+\newblock \emph{BMC Genomics}, 10:\penalty0 122, March 2009.
+
+\bibitem[Park et~al.(2011)Park, Yang, Shin, Park, Jang, and Kim]{parkProteinLocalizationPrincipal2011}
+Solip Park, Jae-Seong Yang, Young-Eun Shin, Juyong Park, Sung~Key Jang, and Sanguk Kim.
+\newblock Protein localization as a principal feature of the etiology and comorbidity of genetic diseases.
+\newblock \emph{Mol. Syst. Biol.}, 7:\penalty0 494, May 2011.
+
+\bibitem[L{\'e}cuyer et~al.(2007)L{\'e}cuyer, Yoshida, Parthasarathy, Alm, Babak, Cerovina, Hughes, Tomancak, and Krause]{lecuyerGlobalAnalysisMRNA2007}
+Eric L{\'e}cuyer, Hideki Yoshida, Neela Parthasarathy, Christina Alm, Tomas Babak, Tanja Cerovina, Timothy~R Hughes, Pavel Tomancak, and Henry~M Krause.
+\newblock Global analysis of {{mRNA}} localization reveals a prominent role in organizing cellular architecture and function.
+\newblock \emph{Cell}, 131\penalty0 (1):\penalty0 174--187, October 2007.
+
+\bibitem[Bovaird et~al.(2018)Bovaird, Patel, Padilla, and L{\'e}cuyer]{bovairdBiologicalFunctionsRegulatory2018}
+Samantha Bovaird, Dhara Patel, Juan-Carlos~Alberto Padilla, and Eric L{\'e}cuyer.
+\newblock Biological functions, regulatory mechanisms, and disease relevance of {{RNA}} localization pathways.
+\newblock \emph{FEBS Letters}, 592\penalty0 (17):\penalty0 2948--2972, September 2018.
+\newblock ISSN 0014-5793, 1873-3468.
+\newblock \doi{10.1002/1873-3468.13228}.
+
+\bibitem[Das et~al.(2019)Das, Singer, and Yoon]{dasTravelsMRNAsNeurons2019}
+Sulagna Das, Robert~H Singer, and Young~J Yoon.
+\newblock The travels of {{mRNAs}} in neurons: Do they know where they are going?
+\newblock \emph{Curr. Opin. Neurobiol.}, 57:\penalty0 110--116, August 2019.
+
+\bibitem[Sahoo et~al.(2018)Sahoo, Smith, {Perrone-Bizzozero}, and Twiss]{sahooAxonalMRNATransport2018}
+Pabitra~K Sahoo, Deanna~S Smith, Nora {Perrone-Bizzozero}, and Jeffery~L Twiss.
+\newblock Axonal {{mRNA}} transport and translation at a glance.
+\newblock \emph{Journal of Cell Science}, 131\penalty0 (8):\penalty0 jcs196808, April 2018.
+\newblock ISSN 1477-9137, 0021-9533.
+\newblock \doi{10.1242/jcs.196808}.
+
+\bibitem[K{\"u}gelgen and Chekulaeva(2020)]{kugelgenConservationCoreNeurite2020}
+Nicolai K{\"u}gelgen and Marina Chekulaeva.
+\newblock Conservation of a core neurite transcriptome across neuronal types and species.
+\newblock \emph{WIREs RNA}, 11\penalty0 (4), July 2020.
+\newblock ISSN 1757-7004, 1757-7012.
+\newblock \doi{10.1002/wrna.1590}.
+
+\bibitem[Culver et~al.(2016)Culver, DeClercq, Dolgalev, Yu, Ma, Heguy, and Tanese]{culverHuntingtonDiseaseProtein2016}
+Brady~P Culver, Josh DeClercq, Igor Dolgalev, Man~Shan Yu, Bin Ma, Adriana Heguy, and Naoko Tanese.
+\newblock Huntington's {{Disease Protein Huntingtin Associates}} with its own {{mRNA}}.
+\newblock \emph{J Huntingtons Dis}, 5\penalty0 (1):\penalty0 39--51, 2016.
+
+\bibitem[Romo et~al.(2018)Romo, Mohn, and Aronin]{romoFreshLookHuntingtin2018}
+Lindsay Romo, Emily~S Mohn, and Neil Aronin.
+\newblock A {{Fresh Look}} at {{Huntingtin mRNA Processing}} in {{Huntington}}'s {{Disease}}.
+\newblock \emph{J Huntingtons Dis}, 7\penalty0 (2):\penalty0 101--108, 2018.
+
+\bibitem[White et~al.(2015)White, Anderson, Zimmerman, Zheng, Rouhani, and Gunawardena]{whiteHuntingtinDifferentiallyRegulates2015}
+Joseph~A White, 2nd, Eric Anderson, Katherine Zimmerman, Kan~Hong Zheng, Roza Rouhani, and Shermali Gunawardena.
+\newblock Huntingtin differentially regulates the axonal transport of a sub-set of {{Rab-containing}} vesicles in vivo.
+\newblock \emph{Hum. Mol. Genet.}, 24\penalty0 (25):\penalty0 7182--7195, December 2015.
+
+\bibitem[Chen et~al.(2015{\natexlab{b}})Chen, Boettiger, Moffitt, Wang, and Zhuang]{chenRNAImagingSpatially2015}
+Kok~Hao Chen, Alistair~N Boettiger, Jeffrey~R Moffitt, Siyuan Wang, and Xiaowei Zhuang.
+\newblock {{RNA}} imaging. {{Spatially}} resolved, highly multiplexed {{RNA}} profiling in single cells.
+\newblock \emph{Science}, 348\penalty0 (6233):\penalty0 aaa6090, April 2015{\natexlab{b}}.
+
+\bibitem[Eng et~al.(2019)Eng, Lawson, Zhu, Dries, Koulena, Takei, Yun, Cronin, Karp, Yuan, and Cai]{engTranscriptomescaleSuperresolvedImaging2019}
+Chee-Huat~Linus Eng, Michael Lawson, Qian Zhu, Ruben Dries, Noushin Koulena, Yodai Takei, Jina Yun, Christopher Cronin, Christoph Karp, Guo-Cheng Yuan, and Long Cai.
+\newblock Transcriptome-scale super-resolved imaging in tissues by {{RNA seqFISH}}.
+\newblock \emph{Nature}, 568\penalty0 (7751):\penalty0 235--239, April 2019.
+
+\bibitem[Gyllborg et~al.(2020)Gyllborg, Langseth, Qian, Choi, Salas, Hilscher, Lein, and Nilsson]{gyllborgHybridizationbasedSituSequencing2020}
+Daniel Gyllborg, Christoffer~Mattsson Langseth, Xiaoyan Qian, Eunkyoung Choi, Sergio~Marco Salas, Markus~M Hilscher, Ed~S Lein, and Mats Nilsson.
+\newblock Hybridization-based in situ sequencing ({{HybISS}}) for spatially resolved transcriptomics in human and mouse brain tissue.
+\newblock \emph{Nucleic Acids Research}, 48\penalty0 (19):\penalty0 e112, November 2020.
+\newblock ISSN 0305-1048.
+\newblock \doi{10.1093/nar/gkaa792}.
+
+\bibitem[Alon et~al.()Alon, Goodwin, Sinha, Chen, Daugharthy, Bando, and Kajita]{alonExpansionSequencingSpatially}
+Shahar Alon, Daniel~R Goodwin, Anubhav Sinha, Fei Chen, Evan~R Daugharthy, Yosuke Bando, and Atsushi Kajita.
+\newblock Expansion {{Sequencing}}: {{Spatially Precise In Situ Transcriptomics}} in {{Intact Biological Systems}}.
+
+\bibitem[Butler and Satija(2017)]{butlerIntegratedAnalysisSingle2017}
+Andrew Butler and Rahul Satija.
+\newblock Integrated analysis of single cell transcriptomic data across conditions, technologies, and species.
+\newblock \emph{bioRxiv}, pages 164889--164889, 2017.
+\newblock ISSN 0780351355.
+\newblock \doi{10.1101/164889}.
+
+\bibitem[Wolf et~al.(2018)Wolf, Angerer, and Theis]{wolfSCANPYLargescaleSinglecell2018}
+F~Alexander Wolf, Philipp Angerer, and Fabian~J Theis.
+\newblock {{SCANPY}}: Large-scale single-cell gene expression data analysis.
+\newblock \emph{Genome Biology}, 19\penalty0 (1):\penalty0 15--15, February 2018.
+\newblock \doi{10.1186/s13059-017-1382-0}.
+
+\bibitem[He et~al.(2021{\natexlab{a}})He, Tang, Huang, Ren, Zhou, Chen, Liu, Shi, Lin, Li, Aditham, Ounadjela, Grody, Shu, Liu, and Wang]{heClusterMapMultiscaleClustering2021}
+Yichun He, Xin Tang, Jiahao Huang, Jingyi Ren, Haowen Zhou, Kevin Chen, Albert Liu, Hailing Shi, Zuwan Lin, Qiang Li, Abhishek Aditham, Johain Ounadjela, Emanuelle~I. Grody, Jian Shu, Jia Liu, and Xiao Wang.
+\newblock {{ClusterMap}} for multi-scale clustering analysis of spatial gene expression.
+\newblock \emph{Nature Communications}, 12\penalty0 (1):\penalty0 5909, October 2021{\natexlab{a}}.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/s41467-021-26044-x}.
+
+\bibitem[Petukhov et~al.(2020)Petukhov, Soldatov, Khodosevich, and Kharchenko]{petukhovBayesianSegmentationSpatially2020}
+Viktor Petukhov, Ruslan~A. Soldatov, Konstantin Khodosevich, and Peter~V. Kharchenko.
+\newblock Bayesian segmentation of spatially resolved transcriptomics data.
+\newblock Preprint, {Bioinformatics}, October 2020.
+
+\bibitem[Spitzer et~al.()Spitzer, Berry, Donoghoe, Pelkmans, and Theis]{spitzerLearningConsistentSubcellular}
+Hannah Spitzer, Scott Berry, Mark Donoghoe, Lucas Pelkmans, and Fabian~J Theis.
+\newblock Learning consistent subcellular landmarks to quantify changes in multiplexed protein maps.
+
+\bibitem[Liu et~al.(2023)Liu, Greenwald, Kong, McCaffrey, Leow, Mrdjen, Cannon, Rumberger, Varra, and Angelo]{liuRobustPhenotypingHighly2023}
+Candace~C. Liu, Noah~F. Greenwald, Alex Kong, Erin~F. McCaffrey, Ke~Xuan Leow, Dunja Mrdjen, Bryan~J. Cannon, Josef~Lorenz Rumberger, Sricharan~Reddy Varra, and Michael Angelo.
+\newblock Robust phenotyping of highly multiplexed tissue imaging data using pixel-level clustering.
+\newblock \emph{Nature Communications}, 14\penalty0 (1):\penalty0 4618, August 2023.
+\newblock ISSN 2041-1723.
+\newblock \doi{10.1038/s41467-023-40068-5}.
+
+\bibitem[Geo()]{GeopandasGeopandasV0}
+Geopandas/geopandas: V0.9.0.
+\newblock \doi{10.5281/zenodo.4569086}.
+
+\bibitem[Gillies et~al.()Gillies, Ward, and Petersen]{gilliesRasterioGeospatialRaster}
+S~Gillies, B~Ward, and A~S Petersen.
+\newblock Rasterio: {{Geospatial}} raster {{I}}/{{O}} for {{Python}} programmers.
+\newblock \emph{URL https://github. com/mapbox/rasterio}.
+
+\bibitem[Virtanen et~al.(2020)Virtanen, Gommers, Oliphant, Haberland, Reddy, Cournapeau, Burovski, Peterson, Weckesser, Bright, Van Der~Walt, Brett, Wilson, Millman, Mayorov, Nelson, Jones, Kern, Larson, Carey, Polat, Feng, Moore, VanderPlas, Laxalde, Perktold, Cimrman, Henriksen, Quintero, Harris, Archibald, Ribeiro, Pedregosa, Van~Mulbregt, {SciPy 1.0 Contributors}, Vijaykumar, Bardelli, Rothberg, Hilboll, Kloeckner, Scopatz, Lee, Rokem, Woods, Fulton, Masson, H{\"a}ggstr{\"o}m, Fitzgerald, Nicholson, Hagen, Pasechnik, Olivetti, Martin, Wieser, Silva, Lenders, Wilhelm, Young, Price, Ingold, Allen, Lee, Audren, Probst, Dietrich, Silterra, Webber, Slavi{\v c}, Nothman, Buchner, Kulick, Sch{\"o}nberger, De~Miranda~Cardoso, Reimer, Harrington, Rodr{\'i}guez, {Nunez-Iglesias}, Kuczynski, Tritz, Thoma, Newville, K{\"u}mmerer, Bolingbroke, Tartre, Pak, Smith, Nowaczyk, Shebanov, Pavlyk, Brodtkorb, Lee, McGibbon, Feldbauer, Lewis, Tygier, Sievert, Vigna, Peterson, More, Pudlik, Oshima, Pingel, Robitaille, Spura, Jones, Cera, Leslie, Zito, Krauss, Upadhyay, Halchenko, and {V{\'a}zquez-Baeza}]{virtanenSciPyFundamentalAlgorithms2020}
+Pauli Virtanen, Ralf Gommers, Travis~E. Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, St{\'e}fan~J. Van Der~Walt, Matthew Brett, Joshua Wilson, K.~Jarrod Millman, Nikolay Mayorov, Andrew R.~J. Nelson, Eric Jones, Robert Kern, Eric Larson, C~J Carey, {\.I}lhan Polat, Yu~Feng, Eric~W. Moore, Jake VanderPlas, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen, E.~A. Quintero, Charles~R. Harris, Anne~M. Archibald, Ant{\^o}nio~H. Ribeiro, Fabian Pedregosa, Paul Van~Mulbregt, {SciPy 1.0 Contributors}, Aditya Vijaykumar, Alessandro~Pietro Bardelli, Alex Rothberg, Andreas Hilboll, Andreas Kloeckner, Anthony Scopatz, Antony Lee, Ariel Rokem, C.~Nathan Woods, Chad Fulton, Charles Masson, Christian H{\"a}ggstr{\"o}m, Clark Fitzgerald, David~A. Nicholson, David~R. Hagen, Dmitrii~V. Pasechnik, Emanuele Olivetti, Eric Martin, Eric Wieser, Fabrice Silva, Felix Lenders, Florian Wilhelm, G.~Young, Gavin~A. Price, Gert-Ludwig Ingold, Gregory~E. Allen, Gregory~R. Lee, Herv{\'e} Audren, Irvin Probst, J{\"o}rg~P. Dietrich, Jacob Silterra, James~T Webber, Janko Slavi{\v c}, Joel Nothman, Johannes Buchner, Johannes Kulick, Johannes~L. Sch{\"o}nberger, Jos{\'e}~Vin{\'i}cius De~Miranda~Cardoso, Joscha Reimer, Joseph Harrington, Juan Luis~Cano Rodr{\'i}guez, Juan {Nunez-Iglesias}, Justin Kuczynski, Kevin Tritz, Martin Thoma, Matthew Newville, Matthias K{\"u}mmerer, Maximilian Bolingbroke, Michael Tartre, Mikhail Pak, Nathaniel~J. Smith, Nikolai Nowaczyk, Nikolay Shebanov, Oleksandr Pavlyk, Per~A. Brodtkorb, Perry Lee, Robert~T. McGibbon, Roman Feldbauer, Sam Lewis, Sam Tygier, Scott Sievert, Sebastiano Vigna, Stefan Peterson, Surhud More, Tadeusz Pudlik, Takuya Oshima, Thomas~J. Pingel, Thomas~P. Robitaille, Thomas Spura, Thouis~R. Jones, Tim Cera, Tim Leslie, Tiziano Zito, Tom Krauss, Utkarsh Upadhyay, Yaroslav~O. Halchenko, and Yoshiki {V{\'a}zquez-Baeza}.
+\newblock {{SciPy}} 1.0: Fundamental algorithms for scientific computing in {{Python}}.
+\newblock \emph{Nature Methods}, 17\penalty0 (3):\penalty0 261--272, March 2020.
+\newblock ISSN 1548-7091, 1548-7105.
+\newblock \doi{10.1038/s41592-019-0686-2}.
+
+\bibitem[Kossaifi et~al.(2019)Kossaifi, Panagakis, Anandkumar, and Pantic]{kossaifiTensorLyTensorLearning2019}
+Jean Kossaifi, Yannis Panagakis, Anima Anandkumar, and Maja Pantic.
+\newblock {{TensorLy}}: {{Tensor Learning}} in {{Python}}.
+\newblock \emph{J. Mach. Learn. Res.}, 20\penalty0 (26):\penalty0 1--6, 2019.
+
+\bibitem[He et~al.(2021{\natexlab{b}})He, Bhatt, Brown, Brown, Buhr, Chantranuvatana, Danaher, Dunaway, Garrison, Geiss, Gregory, Hoang, Khafizov, Killingbeck, Kim, Kim, Kim, Klock, Korukonda, Kutchma, Lewis, Liang, Nelson, Ong, Perillo, Phan, {Phan-Everson}, Piazza, Rane, Reitz, Rhodes, Rosenbloom, Ross, Sato, Wardhani, {Williams-Wietzikoski}, Wu, and Beechem]{heHighplexMultiomicAnalysis2021}
+Shanshan He, Ruchir Bhatt, Carl Brown, Emily~A. Brown, Derek~L. Buhr, Kan Chantranuvatana, Patrick Danaher, Dwayne Dunaway, Ryan~G. Garrison, Gary Geiss, Mark~T. Gregory, Margaret~L. Hoang, Rustem Khafizov, Emily~E. Killingbeck, Dae Kim, Tae~Kyung Kim, Youngmi Kim, Andrew Klock, Mithra Korukonda, Alecksandr Kutchma, Zachary~R. Lewis, Yan Liang, Jeffrey~S. Nelson, Giang~T. Ong, Evan~P. Perillo, Joseph~C. Phan, Tien {Phan-Everson}, Erin Piazza, Tushar Rane, Zachary Reitz, Michael Rhodes, Alyssa Rosenbloom, David Ross, Hiromi Sato, Aster~W. Wardhani, Corey~A. {Williams-Wietzikoski}, Lidan Wu, and Joseph~M. Beechem.
+\newblock High-plex {{Multiomic Analysis}} in {{FFPE}} at {{Subcellular Level}} by {{Spatial Molecular Imaging}}.
+\newblock Preprint, {Genomics}, November 2021{\natexlab{b}}.
+
+\bibitem[Janesick et~al.(2022)Janesick, Shelansky, Gottscho, Wagner, Rouault, Beliakoff, De~Oliveira, Kohlway, Abousoud, Morrison, Drennon, Mohabbat, Williams, {10x Development Teams}, and Taylor]{janesickHighResolutionMapping2022}
+Amanda Janesick, Robert Shelansky, Andrew~D. Gottscho, Florian Wagner, Morgane Rouault, Ghezal Beliakoff, Michelli~Faria De~Oliveira, Andrew Kohlway, Jawad Abousoud, Carolyn~A. Morrison, Tingsheng~Yu Drennon, Seayar~H. Mohabbat, Stephen~R. Williams, {10x Development Teams}, and Sarah~E.B. Taylor.
+\newblock High resolution mapping of the breast cancer tumor microenvironment using integrated single cell, spatial and in situ analysis of {{FFPE}} tissue.
+\newblock Preprint, {Cancer Biology}, October 2022.
+
+\bibitem[Lee et~al.(2015)Lee, Daugharthy, Scheiman, Kalhor, Ferrante, Terry, Turczyk, Yang, Lee, Aach, Zhang, and Church]{leeFluorescentSituSequencing2015}
+Je~Hyuk Lee, Evan~R Daugharthy, Jonathan Scheiman, Reza Kalhor, Thomas~C Ferrante, Richard Terry, Brian~M Turczyk, Joyce~L Yang, Ho~Suk Lee, John Aach, Kun Zhang, and George~M Church.
+\newblock Fluorescent in situ sequencing ({{FISSEQ}}) of {{RNA}} for gene expression profiling in intact cells and tissues.
+\newblock \emph{Nat. Protoc.}, 10\penalty0 (3):\penalty0 442--458, March 2015.
+
+\bibitem[Hu et~al.()Hu, Liu, Bian, Poddar, Singh, McGaughey, Bell, Blazer, Adams, Sidhu, Angers, and Monga]{huDynamicControlMetabolic}
+Shikai Hu, Silvia Liu, Yu~Bian, Minakshi Poddar, Sucha Singh, Jackson McGaughey, Aaron Bell, Levi~L Blazer, Jarret~J Adams, Sachdev~S Sidhu, Stephane Angers, and Satdarshan~P Monga.
+\newblock Dynamic control of metabolic zonation and liver repair by endothelial cell {{Wnt2}} and {{Wnt9b}} revealed by single cell spatial transcriptomics using {{Molecular Cartography}}.
+
+\bibitem[Imbert et~al.()Imbert, Ouyang, Safieddine, Bertrand, Walter, and Mueller]{imbertFISHquantV2Scalable}
+Arthur Imbert, Wei Ouyang, Adham Safieddine, Edouard Bertrand, Thomas Walter, and Florian Mueller.
+\newblock {{FISH-quant}} v2: A scalable and modular analysis tool for {{smFISH}} image analysis.
+
+\bibitem[Viola and Jones(2001)]{violaRapidObjectDetection2001}
+P~Viola and M~Jones.
+\newblock Rapid object detection using a boosted cascade of simple features.
+\newblock In \emph{Proceedings of the 2001 {{IEEE Computer Society Conference}} on {{Computer Vision}} and {{Pattern Recognition}}. {{CVPR}} 2001}, volume~1, pages I--I, December 2001.
+
+\bibitem[Battich et~al.(2013)Battich, Stoeger, and Pelkmans]{battichImagebasedTranscriptomicsThousands2013}
+Nico Battich, Thomas Stoeger, and Lucas Pelkmans.
+\newblock Image-based transcriptomics in thousands of single human cells at single-molecule resolution.
+\newblock \emph{Nature Methods}, 10\penalty0 (11):\penalty0 1127--1133, November 2013.
+\newblock ISSN 1548-7091, 1548-7105.
+\newblock \doi{10.1038/nmeth.2657}.
+
+\bibitem[Stoeger et~al.(2015)Stoeger, Battich, Herrmann, Yakimovich, and Pelkmans]{stoegerComputerVisionImagebased2015}
+Thomas Stoeger, Nico Battich, Markus~D Herrmann, Yauhen Yakimovich, and Lucas Pelkmans.
+\newblock Computer vision for image-based transcriptomics.
+\newblock \emph{Methods}, 85:\penalty0 44--53, September 2015.
+
+\bibitem[Samacoits et~al.(2018)Samacoits, Chouaib, Safieddine, Traboulsi, Ouyang, Zimmer, Peter, Bertrand, Walter, and Mueller]{samacoitsComputationalFrameworkStudy2018}
+Aubin Samacoits, Racha Chouaib, Adham Safieddine, Abdel-Meneem Traboulsi, Wei Ouyang, Christophe Zimmer, Marion Peter, Edouard Bertrand, Thomas Walter, and Florian Mueller.
+\newblock A computational framework to study sub-cellular {{RNA}} localization.
+\newblock \emph{Nat. Commun.}, 9\penalty0 (1):\penalty0 4584, November 2018.
+
+\bibitem[Chouaib et~al.(2020)Chouaib, Safieddine, Pichon, Imbert, Kwon, Samacoits, Traboulsi, Robert, Tsanov, Coleno, Poser, Zimmer, Hyman, Le~Hir, Zibara, Peter, Mueller, Walter, and Bertrand]{chouaibDualProteinmRNALocalization2020}
+Racha Chouaib, Adham Safieddine, Xavier Pichon, Arthur Imbert, Oh~Sung Kwon, Aubin Samacoits, Abdel-Meneem Traboulsi, Marie-C{\'e}cile Robert, Nikolay Tsanov, Emeline Coleno, Ina Poser, Christophe Zimmer, Anthony Hyman, Herv{\'e} Le~Hir, Kazem Zibara, Marion Peter, Florian Mueller, Thomas Walter, and Edouard Bertrand.
+\newblock A {{Dual Protein-mRNA Localization Screen Reveals Compartmentalized Translation}} and {{Widespread Co-translational RNA Targeting}}.
+\newblock \emph{Developmental Cell}, 54\penalty0 (6):\penalty0 773--791.e5, September 2020.
+\newblock ISSN 15345807.
+\newblock \doi{10.1016/j.devcel.2020.07.010}.
+
+\bibitem[Moffitt et~al.(2016)Moffitt, Hao, Wang, Chen, Babcock, and Zhuang]{moffittHighthroughputSinglecellGeneexpression2016}
+Jeffrey~R Moffitt, Junjie Hao, Guiping Wang, Kok~Hao Chen, Hazen~P Babcock, and Xiaowei Zhuang.
+\newblock High-throughput single-cell gene-expression profiling with multiplexed error-robust fluorescence in situ hybridization.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 113\penalty0 (39):\penalty0 11046--11051, September 2016.
+
+\bibitem[Xia et~al.(2019)Xia, Fan, Emanuel, Hao, and Zhuang]{xiaSpatialTranscriptomeProfiling2019}
+Chenglong Xia, Jean Fan, George Emanuel, Junjie Hao, and Xiaowei Zhuang.
+\newblock Spatial transcriptome profiling by {{MERFISH}} reveals subcellular {{RNA}} compartmentalization and cell cycle-dependent gene expression.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 116\penalty0 (39):\penalty0 19490--19499, September 2019.
+
+\bibitem[{The Gene Ontology Consortium} et~al.(2021){The Gene Ontology Consortium}, Carbon, Douglass, Good, Unni, Harris, Mungall, Basu, Chisholm, Dodson, Hartline, Fey, Thomas, Albou, Ebert, Kesling, Mi, Muruganujan, Huang, Mushayahama, LaBonte, Siegele, Antonazzo, Attrill, Brown, Garapati, Marygold, Trovisco, Dos~Santos, Falls, Tabone, Zhou, Goodman, Strelets, Thurmond, Garmiri, Ishtiaq, {Rodr{\'i}guez-L{\'o}pez}, Acencio, Kuiper, L{\ae}greid, Logie, Lovering, Kramarz, Saverimuttu, Pinheiro, Gunn, Su, Thurlow, Chibucos, Giglio, Nadendla, Munro, Jackson, Duesbury, {Del-Toro}, Meldal, Paneerselvam, Perfetto, Porras, Orchard, Shrivastava, Chang, Finn, Mitchell, Rawlings, Richardson, {Sangrador-Vegas}, Blake, Christie, Dolan, Drabkin, Hill, Ni, Sitnikov, Harris, Oliver, Rutherford, Wood, Hayles, B{\"a}hler, Bolton, De~Pons, Dwinell, Hayman, Kaldunski, Kwitek, Laulederkind, Plasterer, Tutaj, Vedi, Wang, D'Eustachio, Matthews, Balhoff, Aleksander, Alexander, Cherry, Engel, Gondwe, Karra, Miyasato, Nash, Simison, Skrzypek, Weng, Wong, Feuermann, Gaudet, Morgat, Bakker, Berardini, Reiser, Subramaniam, Huala, Arighi, Auchincloss, Axelsen, {Argoud-Puy}, Bateman, Blatter, Boutet, Bowler, Breuza, Bridge, Britto, {Bye-A-Jee}, Casas, Coudert, Denny, Estreicher, Famiglietti, Georghiou, Gos, {Gruaz-Gumowski}, {Hatton-Ellis}, Hulo, Ignatchenko, Jungo, Laiho, Le~Mercier, Lieberherr, Lock, Lussi, MacDougall, Magrane, Martin, Masson, Natale, {Hyka-Nouspikel}, Orchard, Pedruzzi, Pourcel, Poux, Pundir, Rivoire, Speretta, Sundaram, Tyagi, Warner, Zaru, Wu, Diehl, Chan, Grove, Lee, Muller, Raciti, Van~Auken, Sternberg, Berriman, Paulini, Howe, Gao, Wright, Stein, Howe, Toro, Westerfield, Jaiswal, Cooper, and Elser]{thegeneontologyconsortiumGeneOntologyResource2021}
+{The Gene Ontology Consortium}, Seth Carbon, Eric Douglass, Benjamin~M Good, Deepak~R Unni, Nomi~L Harris, Christopher~J Mungall, Siddartha Basu, Rex~L Chisholm, Robert~J Dodson, Eric Hartline, Petra Fey, Paul~D Thomas, Laurent-Philippe Albou, Dustin Ebert, Michael~J Kesling, Huaiyu Mi, Anushya Muruganujan, Xiaosong Huang, Tremayne Mushayahama, Sandra~A LaBonte, Deborah~A Siegele, Giulia Antonazzo, Helen Attrill, Nick~H Brown, Phani Garapati, Steven~J Marygold, Vitor Trovisco, Gil Dos~Santos, Kathleen Falls, Christopher Tabone, Pinglei Zhou, Joshua~L Goodman, Victor~B Strelets, Jim Thurmond, Penelope Garmiri, Rizwan Ishtiaq, Milagros {Rodr{\'i}guez-L{\'o}pez}, Marcio~L Acencio, Martin Kuiper, Astrid L{\ae}greid, Colin Logie, Ruth~C Lovering, Barbara Kramarz, Shirin C~C Saverimuttu, Sandra~M Pinheiro, Heather Gunn, Renzhi Su, Katherine~E Thurlow, Marcus Chibucos, Michelle Giglio, Suvarna Nadendla, James Munro, Rebecca Jackson, Margaret~J Duesbury, Noemi {Del-Toro}, Birgit H~M Meldal, Kalpana Paneerselvam, Livia Perfetto, Pablo Porras, Sandra Orchard, Anjali Shrivastava, Hsin-Yu Chang, Robert~Daniel Finn, Alexander~Lawson Mitchell, Neil~David Rawlings, Lorna Richardson, Amaia {Sangrador-Vegas}, Judith~A Blake, Karen~R Christie, Mary~E Dolan, Harold~J Drabkin, David~P Hill, Li~Ni, Dmitry~M Sitnikov, Midori~A Harris, Stephen~G Oliver, Kim Rutherford, Valerie Wood, Jaqueline Hayles, J{\"u}rg B{\"a}hler, Elizabeth~R Bolton, Jeffery~L De~Pons, Melinda~R Dwinell, G~Thomas Hayman, Mary~L Kaldunski, Anne~E Kwitek, Stanley J~F Laulederkind, Cody Plasterer, Marek~A Tutaj, Mahima Vedi, Shur-Jen Wang, Peter D'Eustachio, Lisa Matthews, James~P Balhoff, Suzi~A Aleksander, Michael~J Alexander, J~Michael Cherry, Stacia~R Engel, Felix Gondwe, Kalpana Karra, Stuart~R Miyasato, Robert~S Nash, Matt Simison, Marek~S Skrzypek, Shuai Weng, Edith~D Wong, Marc Feuermann, Pascale Gaudet, Anne Morgat, Erica Bakker, Tanya~Z Berardini, Leonore Reiser, Shabari Subramaniam, Eva Huala, Cecilia~N Arighi, Andrea Auchincloss, Kristian Axelsen, Ghislaine {Argoud-Puy}, Alex Bateman, Marie-Claude Blatter, Emmanuel Boutet, Emily Bowler, Lionel Breuza, Alan Bridge, Ramona Britto, Hema {Bye-A-Jee}, Cristina~Casals Casas, Elisabeth Coudert, Paul Denny, Anne Estreicher, Maria~Livia Famiglietti, George Georghiou, Arnaud Gos, Nadine {Gruaz-Gumowski}, Emma {Hatton-Ellis}, Chantal Hulo, Alexandr Ignatchenko, Florence Jungo, Kati Laiho, Philippe Le~Mercier, Damien Lieberherr, Antonia Lock, Yvonne Lussi, Alistair MacDougall, Michele Magrane, Maria~J Martin, Patrick Masson, Darren~A Natale, Nevila {Hyka-Nouspikel}, Sandra Orchard, Ivo Pedruzzi, Lucille Pourcel, Sylvain Poux, Sangya Pundir, Catherine Rivoire, Elena Speretta, Shyamala Sundaram, Nidhi Tyagi, Kate Warner, Rossana Zaru, Cathy~H Wu, Alexander~D Diehl, Juancarlos~N Chan, Christian Grove, Raymond Y~N Lee, Hans-Michael Muller, Daniela Raciti, Kimberly Van~Auken, Paul~W Sternberg, Matthew Berriman, Michael Paulini, Kevin Howe, Sibyl Gao, Adam Wright, Lincoln Stein, Douglas~G Howe, Sabrina Toro, Monte Westerfield, Pankaj Jaiswal, Laurel Cooper, and Justin Elser.
+\newblock The {{Gene Ontology}} resource: Enriching a {{GOld}} mine.
+\newblock \emph{Nucleic Acids Research}, 49\penalty0 (D1):\penalty0 D325--D334, January 2021.
+\newblock ISSN 0305-1048, 1362-4962.
+\newblock \doi{10.1093/nar/gkaa1113}.
+
+\bibitem[Xu et~al.(2017)Xu, Belyi, Bojic, and Ratti]{xuHowFriendsShare2017}
+Yang Xu, Alexander Belyi, Iva Bojic, and Carlo Ratti.
+\newblock How friends share urban space: {{An}} exploratory spatiotemporal analysis using mobile phone data.
+\newblock \emph{Trans. GIS}, 21\penalty0 (3):\penalty0 468--487, June 2017.
+
+\bibitem[Zeng et~al.(2023)Zeng, Huang, Ren, Wang, Tang, Zhou, Zhou, Shi, Aditham, Sui, Chen, Lo, and Wang]{zengSpatiallyResolvedSinglecell2023}
+Hu~Zeng, Jiahao Huang, Jingyi Ren, Connie~Kangni Wang, Zefang Tang, Haowen Zhou, Yiming Zhou, Hailing Shi, Abhishek Aditham, Xin Sui, Hongyu Chen, Jennifer~A. Lo, and Xiao Wang.
+\newblock Spatially resolved single-cell translatomics at molecular resolution.
+\newblock \emph{Science}, 380\penalty0 (6652):\penalty0 eadd3067, June 2023.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.add3067}.
+
+\bibitem[Ripley(1976)]{ripleySecondorderAnalysisStationary1976}
+B~D Ripley.
+\newblock The second-order analysis of stationary point processes.
+\newblock \emph{J. Appl. Probab.}, 13\penalty0 (2):\penalty0 255--266, June 1976.
+
+\bibitem[Tiefelsdorf(2006)]{tiefelsdorfModellingSpatialProcesses2006}
+Michael Tiefelsdorf.
+\newblock \emph{Modelling {{Spatial Processes}}: {{The Identification}} and {{Analysis}} of {{Spatial Relationships}} in {{Regression Residuals}} by {{Means}} of {{Moran}}'s {{I}}}.
+\newblock {Springer}, April 2006.
+
+\bibitem[Cliff and Ord(1981)]{cliffSpatialProcessesModels1981}
+Andrew~David Cliff and J~K Ord.
+\newblock \emph{Spatial {{Processes}}: {{Models}} \& {{Applications}}}.
+\newblock {Pion}, 1981.
+
+\bibitem[Leslie and Kronenfeld(2011)]{leslieColocationQuotientNew2011}
+Timothy~F Leslie and Barry~J Kronenfeld.
+\newblock The colocation quotient: {{A}} new measure of spatial association between categorical subsets of points.
+\newblock \emph{Geogr. Anal.}, 43\penalty0 (3):\penalty0 306--326, July 2011.
+
+\bibitem[Shashua and Hazan(2005)]{shashuaNonnegativeTensorFactorization2005}
+Amnon Shashua and Tamir Hazan.
+\newblock Non-negative tensor factorization with applications to statistics and computer vision.
+\newblock In \emph{Proceedings of the 22nd International Conference on {{Machine}} Learning - {{ICML}} '05}, {{ICML}} '05, pages 792--799, {New York, NY, USA}, August 2005. {Association for Computing Machinery}.
+\newblock ISBN 978-1-59593-180-1.
+\newblock \doi{10.1145/1102351.1102451}.
+
+\bibitem[Gassmann(2023)]{gassmannDyneinKinetochore2023}
+Reto Gassmann.
+\newblock Dynein at the kinetochore.
+\newblock \emph{Journal of Cell Science}, 136\penalty0 (5):\penalty0 jcs220269, March 2023.
+\newblock ISSN 0021-9533, 1477-9137.
+\newblock \doi{10.1242/jcs.220269}.
+
+\bibitem[Gupta and Uversky(2023)]{guptaMoonlightingEnzymesWhen2023}
+Munishwar~Nath Gupta and Vladimir~N. Uversky.
+\newblock Moonlighting enzymes: When cellular context defines specificity.
+\newblock \emph{Cellular and Molecular Life Sciences}, 80\penalty0 (5):\penalty0 130, May 2023.
+\newblock ISSN 1420-682X, 1420-9071.
+\newblock \doi{10.1007/s00018-023-04781-0}.
+
+\bibitem[Gnann et~al.(2021)Gnann, Cesnik, and Lundberg]{gnannIlluminatingNongeneticCellular2021}
+Christian Gnann, Anthony~J. Cesnik, and Emma Lundberg.
+\newblock Illuminating {{Non-genetic Cellular Heterogeneity}} with {{Imaging-Based Spatial Proteomics}}.
+\newblock \emph{Trends in Cancer}, 7\penalty0 (4):\penalty0 278--282, April 2021.
+\newblock ISSN 24058033.
+\newblock \doi{10.1016/j.trecan.2020.12.006}.
+
+\bibitem[Fazal et~al.(2019)Fazal, Han, Parker, Kaewsapsak, Xu, Boettiger, Chang, and Ting]{fazalAtlasSubcellularRNA2019}
+Furqan~M Fazal, Shuo Han, Kevin~R Parker, Pornchai Kaewsapsak, Jin Xu, Alistair~N Boettiger, Howard~Y Chang, and Alice~Y Ting.
+\newblock Atlas of subcellular {{RNA}} localization revealed by {{APEX-seq}}.
+\newblock \emph{Cell}, 178\penalty0 (2):\penalty0 473--490.e26, July 2019.
+
+\bibitem[Hallou et~al.(2023)Hallou, He, Simons, and Dumitrascu]{hallouComputationalPipelineSpatial2023}
+Adrien Hallou, Ruiyang He, Benjamin~D. Simons, and Bianca Dumitrascu.
+\newblock A computational pipeline for spatial mechano-transcriptomics, August 2023.
+
+\bibitem[Cohen(1960)]{cohenCoefficientAgreementNominal1960}
+Jacob Cohen.
+\newblock A {{Coefficient}} of {{Agreement}} for {{Nominal Scales}}.
+\newblock \emph{Educ. Psychol. Meas.}, 20\penalty0 (1):\penalty0 37--46, April 1960.
+
+\bibitem[Subramanian et~al.(2005)Subramanian, Tamayo, Mootha, Mukherjee, Ebert, Gillette, Paulovich, Pomeroy, Golub, Lander, and Mesirov]{subramanianGeneSetEnrichment2005}
+Aravind Subramanian, Pablo Tamayo, Vamsi~K Mootha, Sayan Mukherjee, Benjamin~L Ebert, Michael~A Gillette, Amanda Paulovich, Scott~L Pomeroy, Todd~R Golub, Eric~S Lander, and Jill~P Mesirov.
+\newblock Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 102\penalty0 (43):\penalty0 15545--15550, October 2005.
+
+\bibitem[Barbie et~al.(2009)Barbie, Tamayo, Boehm, Kim, Moody, Dunn, Schinzel, Sandy, Meylan, Scholl, Fr{\"o}hling, Chan, Sos, Michel, Mermel, Silver, Weir, Reiling, Sheng, Gupta, Wadlow, Le, Hoersch, Wittner, Ramaswamy, Livingston, Sabatini, Meyerson, Thomas, Lander, Mesirov, Root, Gilliland, Jacks, and Hahn]{barbieSystematicRNAInterference2009}
+David~A Barbie, Pablo Tamayo, Jesse~S Boehm, So~Young Kim, Susan~E Moody, Ian~F Dunn, Anna~C Schinzel, Peter Sandy, Etienne Meylan, Claudia Scholl, Stefan Fr{\"o}hling, Edmond~M Chan, Martin~L Sos, Kathrin Michel, Craig Mermel, Serena~J Silver, Barbara~A Weir, Jan~H Reiling, Qing Sheng, Piyush~B Gupta, Raymond~C Wadlow, Hanh Le, Sebastian Hoersch, Ben~S Wittner, Sridhar Ramaswamy, David~M Livingston, David~M Sabatini, Matthew Meyerson, Roman~K Thomas, Eric~S Lander, Jill~P Mesirov, David~E Root, D~Gary Gilliland, Tyler Jacks, and William~C Hahn.
+\newblock Systematic {{RNA}} interference reveals that oncogenic {{KRAS-driven}} cancers require {{TBK1}}.
+\newblock \emph{Nature}, 462\penalty0 (7269):\penalty0 108--112, November 2009.
+\newblock ISSN 0028-0836, 1476-4687.
+\newblock \doi{10.1038/nature08460}.
+
+\bibitem[Xie et~al.(2021)Xie, Bailey, Kuleshov, Clarke, Evangelista, Jenkins, Lachmann, Wojciechowicz, Kropiwnicki, Jagodnik, Jeon, and Ma'ayan]{xieGeneSetKnowledge2021}
+Zhuorui Xie, Allison Bailey, Maxim~V. Kuleshov, Daniel J.~B. Clarke, John~E. Evangelista, Sherry~L. Jenkins, Alexander Lachmann, Megan~L. Wojciechowicz, Eryk Kropiwnicki, Kathleen~M. Jagodnik, Minji Jeon, and Avi Ma'ayan.
+\newblock Gene {{Set Knowledge Discovery}} with {{Enrichr}}.
+\newblock \emph{Current Protocols}, 1\penalty0 (3):\penalty0 e90, March 2021.
+\newblock ISSN 2691-1299, 2691-1299.
+\newblock \doi{10.1002/cpz1.90}.
+
+\bibitem[{Badia-i-Mompel} et~al.(2022){Badia-i-Mompel}, V{\'e}lez~Santiago, Braunger, Geiss, Dimitrov, {M{\"u}ller-Dott}, Taus, Dugourd, Holland, Ramirez~Flores, and {Saez-Rodriguez}]{badia-i-mompelDecoupleREnsembleComputational2022}
+Pau {Badia-i-Mompel}, Jes{\'u}s V{\'e}lez~Santiago, Jana Braunger, Celina Geiss, Daniel Dimitrov, Sophia {M{\"u}ller-Dott}, Petr Taus, Aurelien Dugourd, Christian~H Holland, Ricardo~O Ramirez~Flores, and Julio {Saez-Rodriguez}.
+\newblock {{decoupleR}}: Ensemble of computational methods to infer biological activities from omics data.
+\newblock \emph{Bioinformatics Advances}, 2\penalty0 (1):\penalty0 vbac016, January 2022.
+\newblock ISSN 2635-0041.
+\newblock \doi{10.1093/bioadv/vbac016}.
+
+\bibitem[Huang et~al.(2021)Huang, Zhu, Jussila, Han, Bintu, Kern, Conte, Zhang, Bianco, Chiariello, Yu, Hu, Tastemel, Juric, Hu, Nicodemi, Zhuang, and Ren]{huangCTCFMediatesDosage2021}
+Hui Huang, Quan Zhu, Adam Jussila, Yuanyuan Han, Bogdan Bintu, Colin Kern, Mattia Conte, Yanxiao Zhang, Simona Bianco, Andrea~M. Chiariello, Miao Yu, Rong Hu, Melodi Tastemel, Ivan Juric, Ming Hu, Mario Nicodemi, Xiaowei Zhuang, and Bing Ren.
+\newblock {{CTCF}} mediates dosage- and sequence-context-dependent transcriptional insulation by forming local chromatin domains.
+\newblock \emph{Nature Genetics}, 53\penalty0 (7):\penalty0 1064--1074, July 2021.
+\newblock ISSN 1061-4036, 1546-1718.
+\newblock \doi{10.1038/s41588-021-00863-6}.
+
+\bibitem[Stringer et~al.(2021)Stringer, Wang, Michaelos, and Pachitariu]{stringerCellposeGeneralistAlgorithm2021}
+Carsen Stringer, Tim Wang, Michalis Michaelos, and Marius Pachitariu.
+\newblock Cellpose: A generalist algorithm for cellular segmentation.
+\newblock \emph{Nature Methods}, 18\penalty0 (1):\penalty0 100--106, January 2021.
+\newblock ISSN 1548-7091, 1548-7105.
+\newblock \doi{10.1038/s41592-020-01018-x}.
+
+\bibitem[Kalyanaraman(2020)]{kalyanaramanTeachingBasicsMechanism2020}
+Balaraman Kalyanaraman.
+\newblock Teaching the basics of the mechanism of doxorubicin-induced cardiotoxicity: {{Have}} we been barking up the wrong tree?
+\newblock \emph{Redox Biology}, 29:\penalty0 101394, January 2020.
+\newblock ISSN 22132317.
+\newblock \doi{10.1016/j.redox.2019.101394}.
+
+\bibitem[Young et~al.(1981)Young, Ozols, and Myers]{youngAnthracyclineAntineoplasticDrugs1981}
+R~C Young, R~F Ozols, and C~E Myers.
+\newblock The anthracycline antineoplastic drugs.
+\newblock \emph{N. Engl. J. Med.}, 305\penalty0 (3):\penalty0 139--153, July 1981.
+
+\bibitem[Sheibani et~al.(2022)Sheibani, Azizi, Shayan, Nezamoleslami, Eslami, Farjoo, and Dehpour]{sheibaniDoxorubicinInducedCardiotoxicityOverview2022}
+Mohammad Sheibani, Yaser Azizi, Maryam Shayan, Sadaf Nezamoleslami, Faezeh Eslami, Mohammad~Hadi Farjoo, and Ahmad~Reza Dehpour.
+\newblock Doxorubicin-{{Induced Cardiotoxicity}}: {{An Overview}} on {{Pre-clinical Therapeutic Approaches}}.
+\newblock \emph{Cardiovascular Toxicology}, 22\penalty0 (4):\penalty0 292--310, April 2022.
+\newblock ISSN 1559-0259.
+\newblock \doi{10.1007/s12012-022-09721-1}.
+
+\bibitem[Yu et~al.(2018)Yu, Wang, Kong, Wu, Lu, and Chen]{yuRecentProgressDoxorubicininduced2018}
+Jie Yu, Changxi Wang, Qi~Kong, Xiaxia Wu, Jin-Jian Lu, and Xiuping Chen.
+\newblock Recent progress in doxorubicin-induced cardiotoxicity and protective potential of natural products.
+\newblock \emph{Phytomedicine}, 40:\penalty0 125--139, February 2018.
+
+\bibitem[Rahman et~al.(2007)Rahman, Yusuf, and Ewer]{rahmanAnthracyclineinducedCardiotoxicityCardiacsparing2007}
+Atiar~M Rahman, Syed~Wamique Yusuf, and Michael~S Ewer.
+\newblock Anthracycline-induced cardiotoxicity and the cardiac-sparing effect of liposomal formulation.
+\newblock \emph{International Journal of Nanomedicine}, 2\penalty0 (4):\penalty0 567--583, 2007.
+
+\bibitem[Tewey et~al.(1984)Tewey, Rowe, Yang, Halligan, and Liu]{teweyAdriamycininducedDNADamage1984}
+K.~M. Tewey, T.~C. Rowe, L.~Yang, B.~D. Halligan, and L.~F. Liu.
+\newblock Adriamycin-induced {{DNA}} damage mediated by mammalian {{DNA}} topoisomerase {{II}}.
+\newblock \emph{Science (New York, N.Y.)}, 226\penalty0 (4673):\penalty0 466--468, October 1984.
+\newblock ISSN 0036-8075.
+\newblock \doi{10.1126/science.6093249}.
+
+\bibitem[{Asensio-L{\'o}pez} et~al.(2017){Asensio-L{\'o}pez}, Soler, {Pascual-Figal}, {Fern{\'a}ndez-Belda}, and Lax]{asensio-lopezDoxorubicininducedOxidativeStress2017}
+Mari~C {Asensio-L{\'o}pez}, Fernando Soler, Domingo {Pascual-Figal}, Francisco {Fern{\'a}ndez-Belda}, and Antonio Lax.
+\newblock Doxorubicin-induced oxidative stress: {{The}} protective effect of nicorandil on {{HL-1}} cardiomyocytes.
+\newblock \emph{PLoS One}, 12\penalty0 (2):\penalty0 e0172803, February 2017.
+\newblock ISSN 1932-6203.
+\newblock \doi{10.1371/journal.pone.0172803}.
+
+\bibitem[{\v S}im{\r{u}}nek et~al.(2009){\v S}im{\r{u}}nek, {\v S}t{\v e}rba, Popelov{\'a}, Adamcov{\'a}, Hrdina, and Ger{\v s}l]{simunekAnthracyclineinducedCardiotoxicityOverview2009}
+Tom{\'a}{\v s} {\v S}im{\r{u}}nek, Martin {\v S}t{\v e}rba, Olga Popelov{\'a}, Michaela Adamcov{\'a}, Radom{\'i}r Hrdina, and Vladim{\'i}r Ger{\v s}l.
+\newblock Anthracycline-induced cardiotoxicity: {{Overview}} of studies examining the roles of oxidative stress and free cellular iron.
+\newblock \emph{Pharmacol. Rep.}, 61\penalty0 (1):\penalty0 154--171, January 2009.
+
+\bibitem[Xiong et~al.(2018)Xiong, Wu, Zhang, Wu, Chen, Jiang, Guo, Xie, Wang, and Su]{xiongProtectiveEffectBerberine2018}
+Chen Xiong, Yan-Zhao Wu, Yu~Zhang, Zi-Xiao Wu, Xue-Yan Chen, Ping Jiang, Hui-Cai Guo, Ke-Rang Xie, Ke-Xin Wang, and Su-Wen Su.
+\newblock Protective effect of berberine on acute cardiomyopathy associated with doxorubicin treatment.
+\newblock \emph{Oncol. Lett.}, 15\penalty0 (4):\penalty0 5721--5729, April 2018.
+
+\bibitem[Xu et~al.(2001)Xu, Tang, Qian, and Ashraf]{xuEffectsDoxorubicinMyocardium2001}
+M~F Xu, P~L Tang, Z~M Qian, and M~Ashraf.
+\newblock Effects by doxorubicin on the myocardium are mediated by oxygen free radicals.
+\newblock \emph{Life Sci.}, 68\penalty0 (8):\penalty0 889--901, January 2001.
+
+\bibitem[Rawat et~al.(2021)Rawat, Jaiswal, Khurana, Bhatti, and Navik]{rawatDoxorubicininducedCardiotoxicityUpdate2021}
+Pushkar~Singh Rawat, Aiswarya Jaiswal, Amit Khurana, Jasvinder~Singh Bhatti, and Umashanker Navik.
+\newblock Doxorubicin-induced cardiotoxicity: {{An}} update on the molecular mechanism and novel therapeutic strategies for effective management.
+\newblock \emph{Biomedicine \& Pharmacotherapy}, 139:\penalty0 111708, July 2021.
+\newblock ISSN 07533322.
+\newblock \doi{10.1016/j.biopha.2021.111708}.
+
+\bibitem[Rubio et~al.(2016)Rubio, Busto, Leal, and Garc{\'i}a]{rubioDoxorubicinBindsDuplex2016}
+Ana~R. Rubio, Natalia Busto, Jos{\'e}~M. Leal, and Bego{\~n}a Garc{\'i}a.
+\newblock Doxorubicin binds to duplex {{RNA}} with higher affinity than {{ctDNA}} and favours the isothermal denaturation of triplex {{RNA}}.
+\newblock \emph{RSC Advances}, 6\penalty0 (103):\penalty0 101142--101152, October 2016.
+\newblock ISSN 2046-2069.
+\newblock \doi{10.1039/C6RA21387A}.
+
+\bibitem[Marcheschi et~al.(2009)Marcheschi, Mouzakis, and Butcher]{marcheschiSelectionCharacterizationSmall2009}
+Ryan~J. Marcheschi, Kathryn~D. Mouzakis, and Samuel~E. Butcher.
+\newblock Selection and characterization of small molecules that bind the {{HIV-1}} frameshift site {{RNA}}.
+\newblock \emph{ACS chemical biology}, 4\penalty0 (10):\penalty0 844--854, October 2009.
+\newblock ISSN 1554-8937.
+\newblock \doi{10.1021/cb900167m}.
+
+\bibitem[Bagalkot et~al.(2006)Bagalkot, Farokhzad, Langer, and Jon]{bagalkotAptamerDoxorubicinPhysical2006}
+Vaishali Bagalkot, Omid~C. Farokhzad, Robert Langer, and Sangyong Jon.
+\newblock An {{Aptamer}}\textendash{{Doxorubicin Physical Conjugate}} as a {{Novel Targeted Drug-Delivery Platform}}.
+\newblock \emph{Angewandte Chemie International Edition}, 45\penalty0 (48):\penalty0 8149--8152, 2006.
+\newblock ISSN 1521-3773.
+\newblock \doi{10.1002/anie.200602251}.
+
+\bibitem[Man et~al.(2018)Man, Barnett, and Christoffels]{manStructureFunctionNppa2018}
+Joyce Man, Phil Barnett, and Vincent~M Christoffels.
+\newblock Structure and function of the {{Nppa}}\textendash{{Nppb}} cluster locus during heart development and disease.
+\newblock \emph{Cell. Mol. Life Sci.}, 75\penalty0 (8):\penalty0 1435--1444, April 2018.
+
+\bibitem[Song et~al.(2015)Song, Wang, and Wu]{songAtrialNatriureticPeptide2015}
+Wei Song, Hao Wang, and Qingyu Wu.
+\newblock Atrial natriuretic peptide in cardiovascular biology and disease ({{NPPA}}).
+\newblock \emph{Gene}, 569\penalty0 (1):\penalty0 1--6, September 2015.
+\newblock ISSN 03781119.
+\newblock \doi{10.1016/j.gene.2015.06.029}.
+
+\bibitem[Lewis et~al.(2018)Lewis, Moskovitz, Mutlak, Heineke, Caspi, and Kehat]{lewisLocalizationTranscriptsTranslation2018}
+Yair~E Lewis, Anner Moskovitz, Michael Mutlak, Joerg Heineke, Lilac~H Caspi, and Izhak Kehat.
+\newblock Localization of transcripts, translation, and degradation for spatiotemporal sarcomere maintenance.
+\newblock \emph{J. Mol. Cell. Cardiol.}, 116:\penalty0 16--28, March 2018.
+
+\bibitem[Smalec et~al.(2022)Smalec, Ietswaart, Choquet, McShane, West, and Churchman]{smalecGenomewideQuantificationRNA2022}
+Brendan~M. Smalec, Robert Ietswaart, Karine Choquet, Erik McShane, Emma~R. West, and L.~Stirling Churchman.
+\newblock Genome-wide quantification of {{RNA}} flow across subcellular compartments reveals determinants of the mammalian transcript life cycle.
+\newblock Preprint, {Genomics}, August 2022.
+
+\bibitem[Sard{\~a}o et~al.(2009)Sard{\~a}o, Oliveira, Holy, Oliveira, and Wallace]{sardaoMorphologicalAlterationsInduced2009}
+Vilma~A Sard{\~a}o, Paulo~J Oliveira, Jon Holy, Catarina~R Oliveira, and Kendall~B Wallace.
+\newblock Morphological alterations induced by doxorubicin on {{H9c2}} myoblasts: Nuclear, mitochondrial, and cytoskeletal targets.
+\newblock \emph{Cell Biol. Toxicol.}, 25\penalty0 (3):\penalty0 227--243, June 2009.
+
+\bibitem[Meissner et~al.(2011)Meissner, Weissgerber, Londo{\~n}o, Prenen, Link, Ruppenthal, Molkentin, Lipp, Nilius, Freichel, and Flockerzi]{meissnerModerateCalciumChannel2011}
+Marcel Meissner, Petra Weissgerber, Juan E~Camacho Londo{\~n}o, Jean Prenen, Sabine Link, Sandra Ruppenthal, Jeffery~D Molkentin, Peter Lipp, Bernd Nilius, Marc Freichel, and Veit Flockerzi.
+\newblock Moderate calcium channel dysfunction in adult mice with inducible cardiomyocyte-specific excision of the cacnb2 gene.
+\newblock \emph{J. Biol. Chem.}, 286\penalty0 (18):\penalty0 15875--15882, May 2011.
+
+\bibitem[Frankish et~al.(2019)Frankish, Diekhans, Ferreira, Johnson, Jungreis, Loveland, Mudge, Sisu, Wright, Armstrong, Barnes, Berry, Bignell, Carbonell~Sala, Chrast, Cunningham, Di~Domenico, Donaldson, Fiddes, Garc{\'i}a~Gir{\'o}n, Gonzalez, Grego, Hardy, Hourlier, Hunt, Izuogu, Lagarde, Martin, Mart{\'i}nez, Mohanan, Muir, Navarro, Parker, Pei, Pozo, Ruffier, Schmitt, Stapleton, Suner, Sycheva, {Uszczynska-Ratajczak}, Xu, Yates, Zerbino, Zhang, Aken, Choudhary, Gerstein, Guig{\'o}, Hubbard, Kellis, Paten, Reymond, Tress, and Flicek]{frankishGENCODEReferenceAnnotation2019}
+Adam Frankish, Mark Diekhans, Anne-Maud Ferreira, Rory Johnson, Irwin Jungreis, Jane Loveland, Jonathan~M Mudge, Cristina Sisu, James Wright, Joel Armstrong, If~Barnes, Andrew Berry, Alexandra Bignell, Silvia Carbonell~Sala, Jacqueline Chrast, Fiona Cunningham, Tom{\'a}s Di~Domenico, Sarah Donaldson, Ian~T Fiddes, Carlos Garc{\'i}a~Gir{\'o}n, Jose~Manuel Gonzalez, Tiago Grego, Matthew Hardy, Thibaut Hourlier, Toby Hunt, Osagie~G Izuogu, Julien Lagarde, Fergal~J Martin, Laura Mart{\'i}nez, Shamika Mohanan, Paul Muir, Fabio C~P Navarro, Anne Parker, Baikang Pei, Fernando Pozo, Magali Ruffier, Bianca~M Schmitt, Eloise Stapleton, Marie-Marthe Suner, Irina Sycheva, Barbara {Uszczynska-Ratajczak}, Jinuri Xu, Andrew Yates, Daniel Zerbino, Yan Zhang, Bronwen Aken, Jyoti~S Choudhary, Mark Gerstein, Roderic Guig{\'o}, Tim J~P Hubbard, Manolis Kellis, Benedict Paten, Alexandre Reymond, Michael~L Tress, and Paul Flicek.
+\newblock {{GENCODE}} reference annotation for the human and mouse genomes.
+\newblock \emph{Nucleic Acids Res.}, 47\penalty0 (D1):\penalty0 D766--D773, January 2019.
+
+\bibitem[Yates et~al.(2019)Yates, Achuthan, Akanni, Allen, Allen, {Alvarez-Jarreta}, Amode, Armean, Azov, Bennett, Bhai, Billis, Boddu, Marug{\'a}n, Cummins, Davidson, Dodiya, Fatima, Gall, Giron, Gil, Grego, Haggerty, Haskell, Hourlier, Izuogu, Janacek, Juettemann, Kay, Lavidas, Le, Lemos, Martinez, Maurel, McDowall, McMahon, Mohanan, Moore, Nuhn, Oheh, Parker, Parton, Patricio, Sakthivel, Abdul~Salam, Schmitt, Schuilenburg, Sheppard, Sycheva, Szuba, Taylor, Thormann, Threadgold, Vullo, Walts, Winterbottom, Zadissa, Chakiachvili, Flint, Frankish, Hunt, IIsley, Kostadima, Langridge, Loveland, Martin, Morales, Mudge, Muffato, Perry, Ruffier, Trevanion, Cunningham, Howe, Zerbino, and Flicek]{yatesEnsembl20202019}
+Andrew~D Yates, Premanand Achuthan, Wasiu Akanni, James Allen, Jamie Allen, Jorge {Alvarez-Jarreta}, M~Ridwan Amode, Irina~M Armean, Andrey~G Azov, Ruth Bennett, Jyothish Bhai, Konstantinos Billis, Sanjay Boddu, Jos{\'e}~Carlos Marug{\'a}n, Carla Cummins, Claire Davidson, Kamalkumar Dodiya, Reham Fatima, Astrid Gall, Carlos~Garcia Giron, Laurent Gil, Tiago Grego, Leanne Haggerty, Erin Haskell, Thibaut Hourlier, Osagie~G Izuogu, Sophie~H Janacek, Thomas Juettemann, Mike Kay, Ilias Lavidas, Tuan Le, Diana Lemos, Jose~Gonzalez Martinez, Thomas Maurel, Mark McDowall, Aoife McMahon, Shamika Mohanan, Benjamin Moore, Michael Nuhn, Denye~N Oheh, Anne Parker, Andrew Parton, Mateus Patricio, Manoj~Pandian Sakthivel, Ahamed~Imran Abdul~Salam, Bianca~M Schmitt, Helen Schuilenburg, Dan Sheppard, Mira Sycheva, Marek Szuba, Kieron Taylor, Anja Thormann, Glen Threadgold, Alessandro Vullo, Brandon Walts, Andrea Winterbottom, Amonida Zadissa, Marc Chakiachvili, Bethany Flint, Adam Frankish, Sarah~E Hunt, Garth IIsley, Myrto Kostadima, Nick Langridge, Jane~E Loveland, Fergal~J Martin, Joannella Morales, Jonathan~M Mudge, Matthieu Muffato, Emily Perry, Magali Ruffier, Stephen~J Trevanion, Fiona Cunningham, Kevin~L Howe, Daniel~R Zerbino, and Paul Flicek.
+\newblock Ensembl 2020.
+\newblock \emph{Nucleic Acids Research}, page gkz966, November 2019.
+\newblock ISSN 0305-1048, 1362-4962.
+\newblock \doi{10.1093/nar/gkz966}.
+
+\bibitem[Mar{\c c}ais and Kingsford(2011)]{marcaisFastLockfreeApproach2011}
+Guillaume Mar{\c c}ais and Carl Kingsford.
+\newblock A fast, lock-free approach for efficient parallel counting of occurrences of k-mers.
+\newblock \emph{Bioinformatics}, 27\penalty0 (6):\penalty0 764--770, March 2011.
+
+\bibitem[Gans and Wolinsky(2008)]{gansImprovedAssaydependentSearching2008}
+Jason~D Gans and Murray Wolinsky.
+\newblock Improved assay-dependent searching of nucleic acid sequence databases.
+\newblock \emph{Nucleic Acids Res.}, 36\penalty0 (12):\penalty0 e74, July 2008.
+
+\bibitem[Rodriguez et~al.(2018)Rodriguez, {Rodriguez-Rivas}, Di~Domenico, V{\'a}zquez, Valencia, and Tress]{rodriguezAPPRIS2017Principal2018}
+Jose~Manuel Rodriguez, Juan {Rodriguez-Rivas}, Tom{\'a}s Di~Domenico, Jes{\'u}s V{\'a}zquez, Alfonso Valencia, and Michael~L Tress.
+\newblock {{APPRIS}} 2017: Principal isoforms for multiple gene sets.
+\newblock \emph{Nucleic Acids Research}, 46\penalty0 (D1):\penalty0 D213--D217, January 2018.
+\newblock ISSN 0305-1048, 1362-4962.
+\newblock \doi{10.1093/nar/gkx997}.
+
+\bibitem[Lian et~al.(2012)Lian, Hsiao, Wilson, Zhu, Hazeltine, Azarin, Raval, Zhang, Kamp, and Palecek]{lianRobustCardiomyocyteDifferentiation2012}
+Xiaojun Lian, Cheston Hsiao, Gisela Wilson, Kexian Zhu, Laurie~B Hazeltine, Samira~M Azarin, Kunil~K Raval, Jianhua Zhang, Timothy~J Kamp, and Sean~P Palecek.
+\newblock Robust cardiomyocyte differentiation from human pluripotent stem cells via temporal modulation of canonical {{Wnt}} signaling.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 109\penalty0 (27):\penalty0 E1848--57, July 2012.
+
+\bibitem[Shah et~al.(2017)Shah, Lubeck, Zhou, and Cai]{shahSeqFISHAccuratelyDetects2017}
+Sheel Shah, Eric Lubeck, Wen Zhou, and Long Cai.
+\newblock {{SeqFISH}} accurately detects transcripts in single cells and reveals robust spatial organization in the hippocampus.
+\newblock \emph{Neuron}, 94\penalty0 (4):\penalty0 752--758.e1, May 2017.
+
+\bibitem[Wang et~al.(2018)Wang, Allen, Wright, Sylwestrak, Samusik, Vesuna, Evans, Liu, Ramakrishnan, Liu, Nolan, Bava, and Deisseroth]{wangThreedimensionalIntacttissueSequencing2018}
+Xiao Wang, William~E Allen, Matthew~A Wright, Emily~L Sylwestrak, Nikolay Samusik, Sam Vesuna, Kathryn Evans, Cindy Liu, Charu Ramakrishnan, Jia Liu, Garry~P Nolan, Felice-Alessio Bava, and Karl Deisseroth.
+\newblock Three-dimensional intact-tissue sequencing of single-cell transcriptional states.
+\newblock \emph{Science (New York, N.Y.)}, 361\penalty0 (6400):\penalty0 eaat5691--eaat5691, 2018.
+\newblock \doi{10.1126/science.aat5691}.
+
+\bibitem[Ke et~al.(2013)Ke, Mignardi, Pacureanu, Svedlund, Botling, W{\"a}hlby, and Nilsson]{keSituSequencingRNA2013}
+Rongqin Ke, Marco Mignardi, Alexandra Pacureanu, Jessica Svedlund, Johan Botling, Carolina W{\"a}hlby, and Mats Nilsson.
+\newblock In situ sequencing for {{RNA}} analysis in preserved tissue and cells.
+\newblock \emph{Nature Methods}, 10\penalty0 (9):\penalty0 857--860, September 2013.
+\newblock ISSN 1548-7105.
+\newblock \doi{10.1038/nmeth.2563}.
+
+\bibitem[Rodriques et~al.(2019)Rodriques, Stickels, Goeva, Martin, Murray, Vanderburg, Welch, Chen, Chen, and Macosko]{rodriquesSlideseqScalableTechnology2019}
+Samuel~G. Rodriques, Robert~R. Stickels, Aleksandrina Goeva, Carly~A. Martin, Evan Murray, Charles~R. Vanderburg, Joshua Welch, Linlin~M. Chen, Fei Chen, and Evan~Z. Macosko.
+\newblock Slide-seq: {{A}} scalable technology for measuring genome-wide expression at high spatial resolution.
+\newblock \emph{Science}, 363\penalty0 (6434):\penalty0 1463--1467, March 2019.
+\newblock \doi{10.1126/science.aaw1219}.
+
+\bibitem[Di~Tommaso et~al.(2017)Di~Tommaso, Chatzou, Floden, Barja, Palumbo, and Notredame]{ditommasoNextflowEnablesReproducible2017}
+Paolo Di~Tommaso, Maria Chatzou, Evan~W. Floden, Pablo~Prieto Barja, Emilio Palumbo, and Cedric Notredame.
+\newblock Nextflow enables reproducible computational workflows.
+\newblock \emph{Nature Biotechnology}, 35\penalty0 (4):\penalty0 316--319, April 2017.
+\newblock ISSN 1546-1696.
+\newblock \doi{10.1038/nbt.3820}.
+
+\bibitem[Goldberg et~al.(2005)Goldberg, Allan, Burel, Creager, Falconi, Hochheiser, Johnston, Mellen, Sorger, and Swedlow]{goldbergOpenMicroscopyEnvironment2005}
+Ilya~G. Goldberg, Chris Allan, Jean-Marie Burel, Doug Creager, Andrea Falconi, Harry Hochheiser, Josiah Johnston, Jeff Mellen, Peter~K. Sorger, and Jason~R. Swedlow.
+\newblock The {{Open Microscopy Environment}} ({{OME}}) {{Data Model}} and {{XML}} file: Open tools for informatics and quantitative analysis in biological imaging.
+\newblock \emph{Genome Biology}, 6\penalty0 (5):\penalty0 R47, May 2005.
+\newblock ISSN 1474-760X.
+\newblock \doi{10.1186/gb-2005-6-5-r47}.
+
+\bibitem[Muhlich et~al.(2022)Muhlich, Chen, Yapp, Russell, Santagata, and Sorger]{muhlichStitchingRegisteringHighly2022}
+Jeremy~L Muhlich, Yu-An Chen, Clarence Yapp, Douglas Russell, Sandro Santagata, and Peter~K Sorger.
+\newblock Stitching and registering highly multiplexed whole-slide images of tissues and tumors using {{ASHLAR}}.
+\newblock \emph{Bioinformatics}, 38\penalty0 (19):\penalty0 4613--4621, September 2022.
+\newblock ISSN 1367-4803.
+\newblock \doi{10.1093/bioinformatics/btac544}.
+
+\bibitem[Sof()]{SoftmatterTrackpyV0}
+Soft-matter/trackpy: V0.6.1.
+\newblock \doi{10.5281/zenodo.7670439}.
+
+\bibitem[Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel, Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos, Cournapeau, Brucher, Perrot, and Duchesnay]{pedregosaScikitlearnMachineLearning2011}
+Fabian Pedregosa, Ga{\"e}l Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron Weiss, Vincent Dubourg, Jake Vanderplas, Alexandre Passos, David Cournapeau, Matthieu Brucher, Matthieu Perrot, and {\'E}douard Duchesnay.
+\newblock Scikit-learn: {{Machine Learning}} in {{Python}}.
+\newblock \emph{J. Mach. Learn. Res.}, 12\penalty0 (Oct):\penalty0 2825--2830, 2011.
+
+\bibitem[Nap()]{NapariMultidimensionalImage}
+Napari: A multi-dimensional image viewer for {{Python}}.
+\newblock \doi{10.5281/zenodo.8115575}.
+
+\bibitem[Virshup et~al.(2023)Virshup, Bredikhin, Heumos, Palla, Sturm, Gayoso, Kats, Koutrouli, Berger, Pe'er, Regev, Teichmann, Finotello, Wolf, Yosef, Stegle, and Theis]{virshupScverseProjectProvides2023}
+Isaac Virshup, Danila Bredikhin, Lukas Heumos, Giovanni Palla, Gregor Sturm, Adam Gayoso, Ilia Kats, Mikaela Koutrouli, Bonnie Berger, Dana Pe'er, Aviv Regev, Sarah~A. Teichmann, Francesca Finotello, F.~Alexander Wolf, Nir Yosef, Oliver Stegle, and Fabian~J. Theis.
+\newblock The scverse project provides a computational ecosystem for single-cell omics data analysis.
+\newblock \emph{Nature Biotechnology}, 41\penalty0 (5):\penalty0 604--606, May 2023.
+\newblock ISSN 1546-1696.
+\newblock \doi{10.1038/s41587-023-01733-8}.
+
+\end{thebibliography}

@@ -1,0 +1,97 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: dissertation.aux
+A level-1 auxiliary file: 0_introduction.aux
+A level-1 auxiliary file: 1_chapter.aux
+A level-1 auxiliary file: 2_chapter.aux
+A level-1 auxiliary file: 3_chapter.aux
+A level-1 auxiliary file: 4_epilogue.aux
+A level-1 auxiliary file: 1_chapter_appendix.aux
+A level-1 auxiliary file: 2_chapter_appendix.aux
+The style file: unsrtnat.bst
+Database file #1: bibliography.bib
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Warning--empty author in ZhuangLabMERlinMERlin
+Warning--empty journal in ZhuangLabMERlinMERlin
+Warning--empty year in ZhuangLabMERlinMERlin
+Warning--empty year in ZhuangLabMERlinMERlin
+Warning--empty year in othersStarfishOpenSource
+Warning--empty journal in fangSubcellularSpatiallyResolved
+Warning--empty year in fangSubcellularSpatiallyResolved
+Warning--empty year in fangSubcellularSpatiallyResolved
+Warning--empty journal in walterFISHFactorProbabilisticFactor
+Warning--empty year in walterFISHFactorProbabilisticFactor
+Warning--empty year in walterFISHFactorProbabilisticFactor
+Warning--empty journal in alonExpansionSequencingSpatially
+Warning--empty year in alonExpansionSequencingSpatially
+Warning--empty year in alonExpansionSequencingSpatially
+Warning--empty journal in spitzerLearningConsistentSubcellular
+Warning--empty year in spitzerLearningConsistentSubcellular
+Warning--empty year in spitzerLearningConsistentSubcellular
+Warning--empty author in GeopandasGeopandasV0
+Warning--empty journal in GeopandasGeopandasV0
+Warning--empty year in GeopandasGeopandasV0
+Warning--empty year in GeopandasGeopandasV0
+Warning--empty year in gilliesRasterioGeospatialRaster
+Warning--empty year in gilliesRasterioGeospatialRaster
+Warning--empty journal in huDynamicControlMetabolic
+Warning--empty year in huDynamicControlMetabolic
+Warning--empty year in huDynamicControlMetabolic
+Warning--empty journal in imbertFISHquantV2Scalable
+Warning--empty year in imbertFISHquantV2Scalable
+Warning--empty year in imbertFISHquantV2Scalable
+Warning--empty author in SoftmatterTrackpyV0
+Warning--empty journal in SoftmatterTrackpyV0
+Warning--empty year in SoftmatterTrackpyV0
+Warning--empty year in SoftmatterTrackpyV0
+Warning--empty author in NapariMultidimensionalImage
+Warning--empty journal in NapariMultidimensionalImage
+Warning--empty year in NapariMultidimensionalImage
+Warning--empty year in NapariMultidimensionalImage
+You've used 118 entries,
+            2481 wiz_defined-function locations,
+            1403 strings with 53565 characters,
+and the built_in function-call counts, 72155 in all, are:
+= -- 4140
+> -- 8131
+< -- 22
++ -- 2840
+- -- 2602
+* -- 8083
+:= -- 13304
+add.period$ -- 443
+call.type$ -- 118
+change.case$ -- 243
+chr.to.int$ -- 116
+cite$ -- 160
+duplicate$ -- 2208
+empty$ -- 4207
+format.name$ -- 2735
+if$ -- 13713
+int.to.chr$ -- 3
+int.to.str$ -- 119
+missing$ -- 106
+newline$ -- 686
+num.names$ -- 339
+pop$ -- 840
+preamble$ -- 1
+purify$ -- 118
+quote$ -- 0
+skip$ -- 1132
+stack$ -- 0
+substring$ -- 2450
+swap$ -- 362
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 820
+warning$ -- 37
+while$ -- 381
+width$ -- 0
+write$ -- 1691
+(There were 37 warnings)

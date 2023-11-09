@@ -1,26 +1,4 @@
-\appendix{}
-
-\chapter{Supplemental Material for Chapter \ref{chap:Title of second chapter}}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Section name}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Subsection name}
-Text here.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Supplementary Table Captions}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-The Supplemental Table can be found on the GitHub repository for this study labeled as \verb|SupplementaryTable.xlsx| at the following location: 
-
-\noindent \href{https://github.com/Github/RepoName/}{\texttt{https://github.com/Github/RepoName/}}.
-
-\par\noindent\dotfill
-
-\subsubsection{Supplementary Table S1: Table title}
-Text here.
+\chapter{Supplemental Material for Chapter \ref{chap:chapter2}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Supplementary Figures}
@@ -28,25 +6,6 @@ Text here.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=.2]{1_figures-and-files/FigS1_ZEE-Library.png}
-    \caption[Figure title]{\textbf{Figure title.} Text here.}
-    \label{fig:supplement tag for table of contents}
+    \includegraphics[width=\textwidth]{2_figures-and-files/FigS1.pdf}
+    \caption[Filtering and RNAflux analysis of DOX treated cardiomyocytes.]{\textbf{Filtering and RNAflux analysis of DOX treated cardiomyocytes.} A. Left: UMAP of all 4 cardiomyocyte samples, colors denote different samples. Center: Cells are colored by log-scaled SLC8A1 RNA expression. Right: Leiden clustering identifies 5 clusters, separating low expression SLC8A1 into cluster 4. Representative crop of B. vehicle and D. treatment samples, colored by the first 3 principal components of its RNAflux embedding. Relative enrichment of transcripts enriched for location-specific expression in C. vehicle and E. treatment samples. Red, yellow, blue and green enrichment correspond to nuclear, OMM, ER lumen, and cytosol genesets respectively. }\label{fig:supplement cardio filtering and rnaflux}
 \end{figure}
-
-
-%%%%%%%%%%%% Example of a split figure.
-\begin{figure}[p]
-    \centering
-    \caption[Figure title]{Text here (\textit{Continued on next page.})}
-    \label{fig:supplement tag2 for table of contents}
-\end{figure}
-
-\addtocounter{figure}{-1}
-
-\captionsetup[figure]{list=no}
-\begin{figure}[p]
-    \includegraphics[scale=.5]{1_figures-and-files/FigS5_Notochord-Counting.png}
-    \caption{(\textit{Continued from previous page.})}
-\end{figure}
-\captionsetup[figure]{list=yes}
-%%%%%%%%%%%%

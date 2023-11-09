@@ -1,5 +1,10 @@
 \documentclass[11pt]{formatting-template}
 
+% [ ] add figs & tables
+% [ ] add text refs to figs & tables
+% [ ] After all text added, replace: single and double quotes, escape ampersands
+% BUG OK bibtex no \citation commands 
+
 % mathptmx is a Times Roman look-alike (don't use the times package)
 % It isn't clear if Times is required. The OGS manual lists several
 % "standard fonts" but never says they need to be used.
@@ -31,16 +36,16 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Thesis Title & Author Information
-\title{My title here}
-\author{Author Name}
+\title{Computational Frameworks for Functional Subcellular Analysis of Spatial Transcriptomics Data}
+\author{Clarence K. Mah}
 \degree{Bioinformatics \& Systems Biology}{Doctor of Philosophy}
 
 % Thesis Committee Members
-\chair{Professor One}
-\cochair{Professor Two} 
-\committee{Professor Three}
-\committee{Professor Four} % alphabetical order required
-\committee{Professor Five}
+\chair{Professor Hannah Carter}
+\cochair{Professor Gene Yeo} 
+\committee{Professor Nate Lewis} % alphabetical order required
+\committee{Professor Samara Reck-Peterson}
+\committee{Professor Bing Ren}
 \degreeyear{2023}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -63,8 +68,8 @@
 		
 		$\cdots$
 
-		This dissertation is dedicated to \dots\\
-		and \textit{Person}.
+		This dissertation is dedicated to my parents and sister,\\
+		for believing in my journey into the unknown.\\
 		
 	\end{center}
 \end{dedication}
@@ -77,11 +82,12 @@
 	\vfil\vfil
 	\setsinglespacing{}
 	{ \flushright{
-		This is an epigraph\\
-		about epigraphs.\\
+		Moral courage is a rarer commodity than bravery in battle or great intelligence.\\
+		Yet it is the one essential, vital quality for those who seek to change a world\\
+		that yields most painfully to change.\\
 		}
 		\vskip\baselineskip{}
-		- \textit{Author Name}\par
+		- \textit{Robert Kennedy}\par
 	}
 	\vfil\vfil\vfil
 \end{epigraph}
@@ -102,7 +108,7 @@
 % Acknowledgements
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{acknowledgements}
-	I would like to thank the following people for their support throughout my graduate school journey. \textit{Professor One} for being a great advisor. \textit{Professor Two} for being a great co-advisor. \textit{Professor Three} for being a great committee member. \textit{Professor Four} for being a great committee member. \textit{Professor Five} for being a great committee member. \textit{Professor Six} for being a great committee member. \textit{Professor Seven} for being a great committee member. \textit{Professor Eight} for being a great committee member. \textit{Professor Nine} for being a great committee member. \textit{Professor Ten} for being a great committee member. \textit{Professor Eleven} for being a great committee member. \textit{Professor Twelve} for being a great committee member. \textit{Professor Thirteen} for being a great committee member. \textit{Professor Fourteen} for being a great committee member. \textit{Professor Fifteen} for being a great committee member. \textit{Professor Sixteen} for being a great committee member. \textit{Professor Seventeen} for being a great committee member. \textit{Professor Eighteen} for being a great committee member. \textit{Professor Nineteen} for being a great committee member. \textit{Professor Twenty} for being a great committee member. \textit{Professor Twenty-One} for being a great committee member. \textit{Professor Twenty-Two} for being a great committee member. \textit{Professor Twenty-Three} for being a great committee member. \textit{Professor Twenty-Four} for being a great committee member. \textit{Professor Twenty-Five} for being a great committee member. \textit{Professor Twenty-Six} for being a great committee member. \textit{Professor Twenty-Seven} for being a great committee member. \textit{Professor Twenty-Eight} for being a great committee member. \textit{Professor Twenty-Nine} for being a great committee member. \textit{Professor Thirty} for being a great committee member. \textit{Professor Thirty-One} for being a great committee member. \textit{Professor Thirty-Two} for being a great committee member. \textit{Professor Thirty-Three} for being a great committee member.
+	I would like to thank the following people for their support throughout my graduate school journey. Hannah Carter and Gene Yeo for being a pair of trusting, insightful and inspiring advisors and providing me as many as four separate offices in my graduate career. Nate Lewis for pushing me to always think about the bigger picture in terms of both my research and career. Samara Reck-Peterson and Bing Ren for their thoughtful suggestions. My partner, Michelle Ragsac, for always being my number one advocate, grounding me in reality, and for sharing my enthusiasm for food. My dog, Yuuki, for accompanying me for the entirety of my graduate education (she deserves a "PhDoggo" of her own). My parents and sister for providing me a home and environment to get away and decompress. Noorsher Ahmed for all the wild brainstorming sessions, last minute sprints to materialize results on crazy deadlines, and late night milk tea runs.  Andrea Castro for keeping me company in our almost windowless offices. Kivilcim Ozturk for being my long time office buddy and Michelle Dow for being an inspirational role model, for all the invaluable scientific and life advice she gave me at the start of my PhD, for bestowing her desk to me and for taking Yuuki on walks when I got stuck in meetings all day. Adam Klie, James Talwar, and David Laub for entertaining my philisophical rants on software design and machine learning. Erick Armingol and Cameron Martino whose work on tensor decomposition inspired my own research. Bruce Hamilton for showing me the importance of sticking to my scientific and moral principles. The Yeo lab for being an amazing collaborative research environment. The Carter lab for a supporting my work life balance. The Bioinformatics and Systems Biology program for being my support network when I needed it most and fighting for my rights as a graduate student researcher. 
 \end{acknowledgements}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -113,11 +119,13 @@
 \begin{cv}{}
 \begin{cvlist}{}
 	\item[2012] High School Diploma\\
-		University City High School
-	\item[2012--2016] B.S. in Usefulology\\
-		University of California, San Diego
-	\item[2016--2023] Ph.D. in Bioinformatics \& Systems Biology\\
-		University of California, San Diego
+		Lynbrook High School
+	\item[2012--2016] B.S. in Bioengineering: Bioinformatics\\
+		University of California San Diego
+	\item[2016--2018] Associate Computational Biologist\\
+		University of California San Diego
+	\item[2018--2023] Ph.D. in Bioinformatics \& Systems Biology\\
+		University of California San Diego
 \end{cvlist}
 \end{cv}
 
@@ -127,7 +135,13 @@
 \noindent \textit{Author names marked with $\dagger$ indicate shared first co-authorship.} \newline
 \noindent \textit{Publications marked with $\triangle$ are included in this text.} \newline
 
-\noindent \textbf{Author Name} and Professor One. ``My first publication.'' \textit{Journal of Publications}, 2020. $\triangle$ \newline
+\noindent Avery Pong, \textbf{Clarence K. Mah}, Gene Yeo, Nathan E. Lewis. ``Computational cell-cell interaction technologies drive mechanistic and biomarker discovery in the tumor microenvironment.'' \textit{Accepted, Current Opinion in Biotechnology}, 2023. \newline 
+
+\noindent \textbf{Clarence K. Mah}$\dagger$, Noorsher Ahmed$\dagger$, Nicole Lopez, Dylan Lam, Alexander Monell, Colin Kern, Yuanyuan Han, Gino Prasad, Anthony J. Cesnik, Emma Lundberg, Quan Zhu, Hannah Carter, Gene W. Yeo. ``Bento: A toolkit for subcellular analysis of spatial transcriptomics data.'' \textit{bioRxiv}, 2022. $\triangle$ \newline
+
+\noindent Sydney C. Morgan$\dagger$, Stefan Aigner$\dagger$, Catelyn Anderson$\dagger$, Pedro Belda-Ferre$\dagger$, Peter De Hoff$\dagger$, Clarisse A. Marotz$\dagger$, Shashank Sathe$\dagger$, Mark Zeller$\dagger$, Noorsher Ahmed, Xaver Audhya, Nathan A. Baer, Tom Barber, Bethany Barrick, Lakshmi Batachari, Maryann Betty, Steven M. Blue, Brent Brainard, Tyler Buckley, Jamie Case, Anelizze Castro-Martinez, Marisol Chacón, Willi Cheung, LaVonnye Chong, Nicole G. Coufal, Evelyn S. Crescini, Scott DeGrand, David P. Dimmock, J. Joelle Donofrio-Odmann, Emily R. Eisner, Mehrbod Estaki, Lizbeth Franco Vargas, Michele Freddock, Robert M Gallant, Andrea Galmozzi, Nina J. Gao, Sheldon Gilmer, Edyta M. Grzelak, Abbas Hakim, Jonathan Hart, Charlotte Hobbs, Greg Humphrey, Nadja Ilkenhans, Marni Jacobs, Christopher A. Kahn, Bhavika K. Kapadia, Matthew Kim, Sunil Kurian, Alma L. Lastrella, Elijah S. Lawrence, Kari Lee, Qishan Liang, Hanna Liliom, Valentina Lo Sardo, Robert Logan, Michal Machnicki, Celestine G. Magallanes, \textbf{Clarence K. Mah}, Denise Malacki, Ryan J. Marina, Christopher Marsh, Natasha K. Martin, Nathaniel L. Matteson, Daniel J. Maunder, Kyle McBride, Bryan McDonald, Daniel McDonald, Michelle McGraw, Audra R. Meadows, Michelle Meyer, Amber L. Morey, Jasmine R. Mueller, Toan T. Ngo, Julie Nguyen, Viet Nguyen, Laura J. Nicholson, Alhakam Nouri, Victoria Nudell, Eugenio Nunez, Kyle O’Neill, R. Tyler Ostrander, Priyadarshini Pantham, Samuel S. Park, David Picone, Ashley Plascencia, Isaraphorn Pratumchai, Michael Quigley, Michelle Franc Ragsac, Andrew C. Richardson, Refugio Robles-Sikisaka, Christopher A. Ruiz, Justin Ryan, Lisa Sacco, Sharada Saraf, Phoebe Seaver, Leigh Sewall, Elizabeth W. Smoot, Kathleen M. Sweeney, Chandana Tekkatte, Rebecca Tsai, Holly Valentine, Shawn Walsh, August Williams, Min Yi Wu, Bing Xia, Brian Yee, Jason Z. Zhang, Kristian G. Andersen, Lauge Farnaes, Rob Knight, Gene W. Yeo, Louise C. Laurent. ``Automated, miniaturized, and scalable screening of healthcare workers, first responders, and students for SARS-CoV-2 in San Diego County.'' \textit{medRxiv}, 2021. \newline
+
+\noindent Shashank Sathe, \textbf{Clarence K. Mah}, Noorsher Ahmed, Michelle Franc Ragsac, John Williams, Gene Yeo. ``INSPECT Sample Tracking System.'' \textit {protocols.io}, 2020. \newline
 
 %%%%% FIELDS OF STUDY %%%%% 
 % This section was omitted within this thesis as it was optional.
@@ -138,7 +152,7 @@
 % Dissertation Abstract 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{dissertationabstract}
-	An abstract should provide a clear impression of the content and major divisions of the dissertation or thesis. Abstracts of doctoral dissertations must not exceed 350 words. 
+	Emerging genomic technologies that measure spatial information about RNA molecules promise to shed light on cell biology and function. However, most analytical techniques have primarily concentrated on spatial relationships at the multicellular and cellular scale without fully tapping into single-molecule spatial information. To address this gap, I introduce Bento, a toolkit designed for discerning spatial relationships at the subcellular scale. Bento incorporates a suite of statistical and machine learning methods within an intuitive Python programming interface, emphasizing the FAIR data management principles. To showcase its capabilities, I utilized Bento to study RNA localization changes in doxorubicin-treated cardiomyocytes profiled with spatial transcriptomics. Our findings reveal that doxorubicin-induced stress leads to the depletion of disease-associated genes in the endoplasmic reticulum, along with expression changes previously associated with doxorubicin-induced cardiotoxicity. This places the endoplasmic reticulum as a pivotal subcellular structure in the response to doxorubicin treatment. In essence, Bento emerges as a potent toolkit for the subcellular analysis of spatial transcriptomics data, paving the way for the discovery of new spatial relationships between subcellular structures and molecules. Furthermore, I have created a framework tailored to streamline image processing for spatial transcriptomics data called spotfish. Similar to Bento's ethos, spotfish is built in alignment with FAIR principles and leverages open-source standards like the Nextflow workflow language and Open Microscopy Environment file formats. Collectively, Bento and spotfish empower researchers to harness spatial transcriptomics technologies, enabling more comprehensive exploration of the spatial and molecular organization of cells at an unprecedented throughput.
 \end{dissertationabstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -159,7 +173,6 @@
 
 \include{1_chapter_appendix}
 \include{2_chapter_appendix}
-\include{3_chapter_appendix}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % End of the Dissertation

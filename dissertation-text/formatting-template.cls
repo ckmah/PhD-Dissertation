@@ -29,6 +29,9 @@
 \RequirePackage{lscape}
 \RequirePackage{longtable}
 
+% Set footnotes to be lowercase roman numerals
+\renewcommand{\thefootnote}{\roman{footnote}}
+
 % This command can be used in the preamble to increase the margins
 % uniformly. If uniformity is not desired, then \geometry can be used
 % explicitly.

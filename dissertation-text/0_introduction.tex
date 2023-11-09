@@ -1,29 +1,69 @@
 \begin{dissertationintroduction}
-    % A very generic introduction to a generic phd dissertation
-    Introduce the topic of your dissertation. What is the problem you solved? Why is it important? 
     
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \section{Title of Chapter 1}
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{chapter}{0}
+\chapter*{Introduction}
 
-    Set the stage for this chapter. Provide background to the field and relevant citations. Provide a high level summary of what you did and what you found.
+\label{chap:introduction}
 
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \section{Title of Chapter 2}
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The importance of RNA localization}
+The fundamental unit of life is the cell, from unicellular organisms like bacteria to complex multicellular organisms like humans. While it is convenient to think of cells as amorphous liquid bags of lipids, proteins and sugars, cells are highly structured and and regulated. The genome serves as the template for RNAs; they are synthesized then modified by tightly orchestrated processes such as splicing, localization, translation, and degradation so a cell can function. We can measure the abundance of a cell's transcriptome, the complete repertoire of RNA, to loosely quantify cellular activity. But what do these molecules physically interact with? Where do these interactions occur in the cell and what causes them to interact? This layer of regulation, RNA localization, plays an important role in cell processes such as protein synthesis, signaling pathways and RNA degradation. For example, mRNAs exhibit asymmetric distributions in developing \textit{Drosophila melanogaster} embryos, compartment-specific localization in the neurites of neurons, and colocalization with the actin cytoskeleton in fibroblasts \cite{buxbaumRightPlaceRight2015}. The prevalence of RNA localization across diverse cell types and organisms indicate that it is a highly conserved process. Abnormal RNA localization has also been associated with many neurodegenerative diseases such as Huntington's disease (HD), where defects in axonal mRNA transport and subsequent translation in human spiny neurons lead to cell death and neurodegeneration \cite{fernandopulleRNATransportLocal2021}. Despite these repeated observations, the determinants of localization are not well understood.
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies, nunc nisl aliquet nunc, sed aliquam nisl nu.
+\section{Spatial transcriptomics technology}
 
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \section{Title of Chapter 3}
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+While we can easily quantify RNA expression with sequencing, RNA imaging techniques have traditionally been limited to visualizing a handful of species per experiment. However, recent multiplexed imaging technologies have unlocked much higher experimental throughput at hundreds to thousands of species, enabling nearly transcriptome-scale analysis of spatial RNA distributions. Single-molecule fluorescent in situ hybridization\cite{rajImagingIndividualMRNA2008} (smFISH) was one of the first popularized techniques able to image RNAs by species using synthesized complementary DNA (cDNA) sequences with fluorochromes. The cDNA probes hybridize to RNA targets and emit light upon excitation, which is captured by microscope cameras as dots of light, less than a micron wide. By designing specific probes for each RNA species of interest, it is possible to image multiple unique species at a time in the same cells. In order to scale to target hundreds to tens of thousands of unique RNA species, recent combinatorial FISH techniques compress the number of imaging rounds needed to identify each target by designing sets of barcodes that fluoresce in a specific sequence of images for individual RNA species. For example, MERFISH\cite{chenSpatiallyResolvedHighly2015} is one technique using a barcoding scheme that allows detection of 10,000 unique RNA targets in 69 rounds of sequential images. At such a scale, we can begin to study the RNA life cycle from a new perspective, by observing the spatial organization of the transcriptome and uncovering principles of RNA regulation linked to localization. The set of technologies able to capture the spatial organization of RNA in cells and tissue is termed spatial transcriptomics.\footnote{In addition to imaging-based methods, there exists a host of slide-based methods that are just as prevalent but not in the scope of this work. In summary these methods use a grid of barcoded wells on slides to capture and sequence transcripts. The location of each well is used to spatially map transcripts.}
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies, nunc nisl aliquet nunc, sed aliquam nisl nu.
+\section{Current analysis trends}
 
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \section{Conclusion}
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+As spatial transcriptomics assays reaches the scientific main stream \cite{marxMethodYearSpatially2021}, there is a growing need for scalable analysis software and computational infrastructure. The most robust and enduring tools adhere to FAIR principles\cite{wilkinsonFAIRGuidingPrinciples2016} — Findability, Accessibility, Interoperability, and Reusability—a set of standards proposed by researchers to maximize reuse of research objects for advancing scientific discovery. Data management strategies such as version control, software containerization, and pipeline management are often second priority in academic research. Consequentially, many academic tools do not see use outside of their initial projects and collaborations due to low adoption. Mainstream media attention around the “reproducibility crisis” and high profile cases of academic fraud have demonstrated the clear value of enforcing FAIR principles for academic research, both to researchers and for building trust with the average citizen. 
 
-    Briefly summarize your dissertation with your takeaways and future directions.
-    
+The field of spatial transcriptomics has witnessed an evolution of various tools and platforms, each specializing in different aspects of analysis and data handling. For image processing, tools like \textit{multi-fish}\cite{wangEASIFISHThickTissue2021}, \textit{mcmicro}\cite{schapiroMCMICROScalableModular2022}, and \textit{MERlin}\cite{ZhuangLabMERlinMERlin} are tailored specifically for certain technologies. In contrast, \textit{starfish/PIPEFISH}\cite{othersStarfishOpenSource,cisarUnifiedPipelineFISH2023} and \textit{spotfish} (described in this work) attempt to be platform agnostic and focus on pipeline building infrastructure instead of task-specific algorithms. In terms of data structures, \textit{AnnData}\cite{virshupAnndataAnnotatedData2021} specifically supports single-cell data matrices, while \textit{SpatialData}\cite{marconatoSpatialDataOpenUniversal2023}, \textit{SpatialExperiment}\cite{righelliSpatialExperimentInfrastructureSpatiallyresolved2022} offer more complex representations, attempting supporting a spectrum of data modalities and the relationships between them. Single-cell analysis is the \textit{de facto} approach to analyze spatial transcriptomics, and tools such as \textit{Giotto}\cite{driesGiottoToolboxIntegrative2021}, \textit{Squidpy}\cite{pallaSquidpyScalableFramework2021}, \textit{Stereopy}\cite{STOmicsStereopy2023}, \textit{stLearn}\cite{phamStLearnIntegratingSpatial2020}, and \textit{Voyager}\cite{mosesVoyagerExploratorySinglecell2023} are equipped to handle cell-centric functional analyses. Subcellular analysis, which delves deeper into spatial interactions at the molecular level, features tools like \textit{INSTANT}\cite{kumarIntracellularSpatialTranscriptomic2023}, \textit{SpaGNN}\cite{fangSubcellularSpatiallyResolved}, and \textit{FISHfactor}\cite{walterFISHFactorProbabilisticFactor}. \textit{Bigfish}\cite{imbertFISHquantV2Scalable2022} and \textit{Bento}\cite{mahBentoToolkitSubcellular2022} in this category are examples of software packages developed with FAIR principles in mind. Overall, this brief listing highlights the growing interest in the budding field of spatial transcriptomics and the need for FAIR tools to support the maturation of the field.
+
+
+\setlength\LTleft{0pt}
+\setlength\LTright{0pt}
+\begin{small}
+    \renewcommand\thetable{0.1}
+    \begin{landscape} % this table is long
+        \begin{longtable}{l l l l l l l}
+            % Define the table title in the table of contents
+            \caption{Assessment of FAIR principles in spatial transcriptomics tools}\label{tab:spatial-tx tools assessment}
+            \\ \hline 
+
+            % Define the table columns for the first and all subsequent pages
+            \multicolumn{1}{l}{\textbf{Category}} & \multicolumn{1}{l}{\textbf{Tool}} & \multicolumn{1}{l}{\textbf{Spatial-Tx Compatible}} & \multicolumn{1}{l}{\textbf{Findability}} & \multicolumn{1}{l}{\textbf{Accessibility}} & \multicolumn{1}{l}{\textbf{Interoperability}} & \multicolumn{1}{l}{\textbf{Reusability}} \\ \hline \endhead 
+
+            % \multicolumn{7}{l}%
+            % {{\textbf{\tablename\ \theHtable{}.} Assessment of FAIR principles in spatial transcriptomics tools, \textit{continued from previous page}}} \\
+            % \hline 
+            
+            % Define the table footer for the first and all subsequent pages
+            \hline \multicolumn{7}{r}{\textit{Continued on next page}} \\ \hline \endfoot
+            \hline \endlastfoot
+            
+            % Start table content
+
+            %%%%% %%%%% %%%%% %%%%% %%%%% %%%%% %%%%% %%%%% %%%%% %%%%% %%%%% %%%%%
+            \textbf{Image Processing} & easi-fish & ~ & x & x & x & x \\ 
+            \textbf{} & MERlin & MERFISH only & x & x & x & x \\ 
+            \textbf{} & mcmicro & ~ & x & x & x & x \\ 
+            \textbf{} & starfish/PIPEFISH & x & x & ~ & ~ & x \\ 
+            \textbf{} & spotfish & x & x & x & x & x \\ 
+            \textbf{Data Structure} & AnnData & ~ & x & x & x & x \\ 
+            \textbf{} & SpatialData & x & x & x & x & x \\ 
+            \textbf{} & SpatialExperiment & x & x & x & x & x \\ 
+            \textbf{Single-Cell Analysis} & Giotto & x & x & x & x & x \\ 
+            \textbf{} & Squidpy & x & x & x & x & x \\ 
+            \textbf{} & Stereopy & x & x & x & x & x \\ 
+            \textbf{} & stLearn & x & x & x & x & x \\ 
+            \textbf{} & Voyager & x & x & x & x & x \\ 
+            \textbf{Subcellular Analysis} & INSTANT & x & ~ & ~ & ~ & ~ \\ 
+            \textbf{} & SpaGNN & x & ~ & ~ & ~ & ~ \\ 
+            \textbf{} & FISHfactor & x & ~ & ~ & ~ & x \\ 
+            \textbf{} & Bigfish & ~ & x & x & ~ & x \\ 
+            \textbf{} & Bento & x & x & x & x & x \\ 
+        \end{longtable}
+    \end{landscape}
+\end{small}
+
+
 \end{dissertationintroduction}
