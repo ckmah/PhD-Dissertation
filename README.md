@@ -1,21 +1,23 @@
 # Decoding the genomic regulatory syntax driving notochord development
 
-**Author:** Michelle Franc Ragsac <br>
-**University:** University of California, San Diego <br>
-**Department:** Bioinformatics & Systems Biology (https://bioinformatics.ucsd.edu/)
+**Author:** Clarence Mah <br>
+**University:** University of California San Diego <br>
+**Department:** [Bioinformatics & Systems Biology](https://bioinformatics.ucsd.edu/)
 
 ## Committee Members
 
-* Professor Emma K. Farley, *Chair*
-* Professor Theresa Gaasterland, *Co-Chair*
-* Professor Vineet Bafna
-* Professor Christopher Benner
-* Professor Xin Sun
+* Professor Hannah Carter, *Chair*
+* Professor Gene Yeo, *Co-Chair*
+* Professor Nate Lewis
+* Professor Samara Reck-Peterson
+* Professor Bing Ren
 
 ## Abstract
 
-Embryonic development across all vertebrates begins upon the fertilization of an egg by a sperm cell to become a single-celled zygote. Embryogenesis continues with various stages of division to eventually make up an entire organism. The processes governing development are finely orchestrated and include many participants, such as genes involved in gene regulatory networks and non-coding regions of DNA, or enhancers, to regulate the expression of those genes. Defects or perturbations to this strictly regulated machinery can lead to various clinical conditions, such as congenital heart disease. Thus, deepening our understanding of embryogenesis may help us understand the mechanisms driving congenital abnormalities as well as the evolution of developmental pathways. One defining characteristic of all chordate embryos is the presence of a notochord during development. The notochord is a long, semi-rigid fibrous rod of mesodermal origin that provides structural support and serves as a signaling center to pattern the neighboring neural tube, paraxial mesoderm, and gut. A complete understanding of notochord structure and function during early and late life stages is thus essential to better understand congenital vertebral defects. For example, failure of vertebral notochord cells to transition to the nucleus pulposus, the cushioning between intervertebral discs of the spine, is associated with chordomas, slow-growing tumors formed from notochord cell remnants within the spine or the base of the skull. The ascidian *Ciona intestinalis Type A* (*Ciona*) is a marine organism that is evolutionarily similar to vertebrates. Through electroporation, *Ciona* is readily amenable to high-throughput, high-resolution functional studies of cis-regulatory elements like enhancers in their native, whole-embryo context. To identify key notochord enhancers, I analyzed the importance of enhancer grammar–the transcription factor order, orientation, spacing, and binding affinity–in modulating notochord-specific expression. Next, I highlight the potential of single-cell RNA-sequencing to study the gene regulato ry networks governing notogenesis and their relationship to congenital abnormalities. This body of work provides new insight into the regulatory processes governing notochord development, providing direction for future efforts to improve our understanding of notochord-based diseases across chordates. Finally, I highlight Open Educational Resources (OERs) I developed for Bioinformatics education, emphasizing accessibility and inclusion.
+Emerging genomic technologies that measure spatial information about RNA molecules promise to shed light on cell biology and function. However, most analytical techniques have primarily concentrated on spatial relationships at the multicellular and cellular scale without fully tapping into single-molecule spatial information. To address this gap, I introduce Bento, a toolkit designed for discerning spatial relationships at the subcellular scale. Bento incorporates a suite of statistical and machine learning methods within an intuitive Python programming interface, emphasizing the FAIR data management principles. To showcase its capabilities, I utilized Bento to study RNA localization changes in doxorubicin-treated cardiomyocytes profiled with spatial transcriptomics. Our findings reveal that doxorubicin-induced stress leads to the depletion of disease-associated genes in the endoplasmic reticulum, along with expression changes previously associated with doxorubicin-induced cardiotoxicity. This places the endoplasmic reticulum as a pivotal subcellular structure in the response to doxorubicin treatment. In essence, Bento emerges as a potent toolkit for the subcellular analysis of spatial transcriptomics data, paving the way for the discovery of new spatial relationships between subcellular structures and molecules. Furthermore, I have created a framework tailored to streamline image processing for spatial transcriptomics data called spotfish. Similar to Bento's ethos, spotfish is built in alignment with FAIR principles and leverages open-source standards like the Nextflow workflow language and Open Microscopy Environment file formats. Collectively, Bento and spotfish empower researchers to harness spatial transcriptomics technologies, enabling more comprehensive exploration of the spatial and molecular organization of cells at an unprecedented throughput.
 
 ## Acknowledgements 
 
-My dissertation document references the template that can be found at the following GitHub repository: https://github.com/stevecheckoway/ucsddissertation. 
+My dissertation document was derived from templates from the following repos:
+- https://github.com/mragsac/phd-dissertation
+- https://github.com/stevecheckoway/ucsddissertation
