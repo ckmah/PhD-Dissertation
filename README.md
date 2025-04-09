@@ -1,4 +1,4 @@
-# Decoding the genomic regulatory syntax driving notochord development
+# Computational Frameworks for Functional Subcellular Analysis of Spatial Transcriptomics Data
 
 **Author:** Clarence Mah <br>
 **University:** University of California San Diego <br>
